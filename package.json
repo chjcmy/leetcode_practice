@@ -1,0 +1,33 @@
+{
+  "name": "leetcode_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "two-sum": "ts-node src/solve/two-sum.ts",
+    "valid-parentheses": "ts-node src/solve/valid-parentheses.ts",
+    "binary-search": "ts-node src/solve/binary-search.ts",
+    "best-time": "ts-node src/solve/best-time-to-buy-and-sell-stock.ts",
+    "contains-duplicate": "ts-node src/solve/contains-duplicate.ts",
+    "valid-anagram": "ts-node src/solve/valid-anagram.ts",
+    "merge-lists": "ts-node src/solve/merge-two-sorted-lists.ts",
+    "reverse-list": "ts-node src/solve/reverse-linked-list.ts",
+    "max-depth": "ts-node src/solve/maximum-depth-of-binary-tree.ts",
+    "same-tree": "ts-node src/solve/same-tree.ts",
+    "invert-tree": "ts-node src/solve/invert-binary-tree.ts",
+    "climbing-stairs": "ts-node src/solve/climbing-stairs.ts",
+    "house-robber": "ts-node src/solve/house-robber.ts",
+    "coin-change": "ts-node src/solve/coin-change.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

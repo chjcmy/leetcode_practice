@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "51b69def84184b85",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f44dc9dbf476002",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebe4962cfdaf1409",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Dynamic_Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic_Programming"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7437e3400d25406c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d64aa486be6e5629",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d038937b721f9ca4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f7f5b6291c7fe6a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:docs  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "798fe0166d0f7bff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a96357de00d90e87",
+    "type": "split",
+    "children": [
+      {
+        "id": "7770dca5b2f0a0b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6d7ccd49bffbada",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "4DAY_COMPLETE_PLAN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4DAY_COMPLETE_PLAN"
+            }
+          },
+          {
+            "id": "629832553b4f01bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "4DAY_COMPLETE_PLAN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 4DAY_COMPLETE_PLAN"
+            }
+          },
+          {
+            "id": "11bf7878932698b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7e5057199e2eafb3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "4DAY_COMPLETE_PLAN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 4DAY_COMPLETE_PLAN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d038937b721f9ca4",
+  "lastOpenFiles": [
+    "docs/TOMORROW_PLAN.md",
+    "leetcode-progress-tracker.md",
+    "docs/Binary_Search.md",
+    "docs/Heap_Priority_Queue.md",
+    "docs/Backtracking.md",
+    "docs/Greedy_Algorithms.md",
+    "docs/Sliding_Window.md",
+    "docs/Two_Pointers.md",
+    "docs/Dynamic_Programming.md",
+    "docs/DFS_BFS.md",
+    "docs/LANGCHAIN_REALITY_CHECK.md",
+    "TOMORROW_PLAN.md",
+    "매버릭스_지원서_최성현.md",
+    "최성현 이력서.pdf",
+    "src/solve/cut-off-trees-golf.ts",
+    "src/solve/count-unique-characters.ts",
+    "src/solve/race-car.ts",
+    "src/solve/race-car.ts.tmp.76946.1756361711118",
+    "src/solve/cat-mouse-game.ts",
+    "src/solve/longest-duplicate-substring.ts",
+    "src/solve/find-minimum-time-finish-jobs.ts",
+    "src/solve/student-attendance-record-ii.ts",
+    "src/solve/optimal-account-balancing.ts",
+    "CLAUDE.md",
+    "EXTREME_4DAY_MASTERY.md",
+    "INTENSIVE_MASTERY_PLAN.md",
+    "PORTFOLIO_PROJECT.md",
+    "MAVRKS_APPLICATION.md",
+    "MAVRKS_ANALYSIS.md",
+    "REACT_PATTERN_GUIDE.md",
+    "4DAY_COMPLETE_PLAN.md",
+    "docs/Essential_TypeScript_JavaScript_Syntax.md",
+    "docs/Algorithm_Mastery_Guide.md",
+    "docs/LangChain_Mastery_Guide.md",
+    "docs/Prompt_Engineering_Guide.md",
+    "docs/Project_Development_Guide.md"
+  ]
+}
