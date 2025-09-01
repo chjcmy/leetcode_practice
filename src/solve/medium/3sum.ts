@@ -18,8 +18,46 @@
 function threeSum(nums: number[]): number[][] {
     // 여기에 코드를 작성하세요
     // Hint: 정렬 후 Two Pointer 기법 사용
-    
-    return [];
+
+    // 결과물 저장
+    const result: number[][] = [];
+
+    nums = nums.sort((a, b) => a - b);
+
+    for (let i = 0; i < nums.length - 2; i++) {
+
+        if (i > 0 && nums[i] === nums[i - 1]) {
+            continue;
+        }
+
+        // left와 right 포인터 초기화
+        let left = i + 1;
+        let right = nums.length - 1;
+
+        // 투 포인터 루프
+        while (left < right) {
+            const currentSum = nums[i] + nums[left] + nums[right];
+
+            if (currentSum === 0) {
+                result.push([nums[i], nums[left], nums[right]])
+
+                while (left < right && nums[left]=== nums[left + 1]) {
+                    left++;
+                }
+                while (left < right && nums[right]=== nums[right - 1]) {
+                    right--;
+                }
+
+                left++;
+                right--;
+            } else if (currentSum < 0) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+    }
+    return result;
 }
 
 // 테스트 케이스
