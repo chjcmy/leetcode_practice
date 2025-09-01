@@ -23,8 +23,29 @@
 function lengthOfLongestSubstring(s: string): number {
     // 여기에 코드를 작성하세요
     // Hint: Sliding Window 기법 + Set 또는 Map 사용
-    
-    return 0;
+    // start, end 변수를 만든다
+    let start = 0;
+    let maxLength = 0;
+    const charIndexMap = new Map<string, number>();
+
+    // s 크기 만큼 반복 한다
+    for (let end = 0; end < s.length; end++) {
+        const currentChar = s[end];
+
+        // 현재 문자가 Set에 이미 존재 하면
+        if (charIndexMap.has(currentChar) && charIndexMap.get(currentChar)! >= start) {
+            start = charIndexMap.get(currentChar)! + 1;
+        }
+
+        charIndexMap.set(currentChar, end);
+
+        maxLength = Math.max(maxLength, end - start + 1);
+
+    }
+
+    // set 을 통해서 없다면 end에 max을 비교하면서 end - start 값이 max보다 값이 크다면 max에 값을 추가한다
+    // 추가 하고 반복 되거나 s의 끝이 나올때 끝낸다
+    return maxLength;
 }
 
 // 테스트 케이스

@@ -1,6 +1,6 @@
 # 🎯 LeetCode Progress Tracker
 
-> **총 253개 문제** | 업데이트: 2024년 8월 28일
+> **총 261개 문제** | 업데이트: 2025년 9월 1일
 
 ---
 
@@ -8,369 +8,355 @@
 
 | 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
 |--------|------|--------|---------|--------|
-| **🟢 Easy** | 0 | 85 | 85 | 0% |
-| **🟡 Medium** | 0 | 140 | 140 | 0% |
+| **🟢 Easy** | 7 | 85 | 92 | 8% |
+| **🟡 Medium** | 3 | 138 | 141 | 2% |
 | **🔴 Hard** | 0 | 28 | 28 | 0% |
-| **전체** | **0** | **253** | **253** | **0%** |
+| **전체** | **10** | **251** | **261** | 4% |
 
 ---
 
-## 🟢 Easy (85문제)
+## 🟢 Easy (91문제)
 
 ### Array & Hashing
-- [ ] **two-sum** - Two Sum (LeetCode 1)
-- [ ] **contains-duplicate** - Contains Duplicate (LeetCode 217)
-- [ ] **valid-anagram** - Valid Anagram (LeetCode 242)
-- [ ] **group-anagrams** - Group Anagrams (LeetCode 49)
-- [ ] **top-k-frequent-elements** - Top K Frequent Elements (LeetCode 347)
-- [ ] **encode-decode-strings** - Encode and Decode Strings (LeetCode 271)
-- [ ] **product-except-self** - Product of Array Except Self (LeetCode 238)
-- [ ] **longest-consecutive-sequence** - Longest Consecutive Sequence (LeetCode 128)
+- [x] **contains-duplicate** - Contains Duplicate (LeetCode 217)
+- [x] **two-sum** - Two Sum (LeetCode 1)
+- [x] **valid-anagram** - Valid Anagram (LeetCode 242)
+- [ ] **array-partition-i** - Array Partition I
+- [ ] **degree-of-array** - Degree of an Array
+- [ ] **find-all-disappeared-numbers** - Find All Numbers Disappeared in Array
+- [ ] **find-difference** - Find the Difference
+- [ ] **find-pivot-index** - Find Pivot Index
+- [ ] **first-unique-character** - First Unique Character in String
+- [ ] **isomorphic-strings** - Isomorphic Strings
+- [ ] **jewels-and-stones** - Jewels and Stones
+- [ ] **keyboard-row** - Keyboard Row
+- [ ] **majority-element** - Majority Element
+- [ ] **merge-sorted-array** - Merge Sorted Array
+- [ ] **next-greater-element** - Next Greater Element I
+- [ ] **pascal-triangle** - Pascal's Triangle
+- [ ] **ransom-note** - Ransom Note
+- [ ] **relative-ranks** - Relative Ranks
+- [ ] **remove-element** - Remove Element
+- [ ] **rotate-array** - Rotate Array
+- [ ] **set-mismatch** - Set Mismatch
+- [ ] **shortest-completing-word** - Shortest Completing Word
+- [ ] **subdomain-visit-count** - Subdomain Visit Count
+- [ ] **unique-morse-code** - Unique Morse Code Words
+- [ ] **remove-duplicates-from-sorted-array** - Remove Duplicates from Sorted Array
 
 ### Two Pointers
-- [ ] **valid-parentheses** - Valid Parentheses (LeetCode 20)
-- [ ] **best-time-to-buy-and-sell-stock** - Best Time to Buy and Sell Stock (LeetCode 121)
+- [x] **best-time-to-buy-and-sell-stock** - Best Time to Buy and Sell Stock (LeetCode 121)
+- [x] **valid-parentheses** - Valid Parentheses (LeetCode 20)
+- [ ] **find-index-first-occurrence** - Find Index of First Occurrence
+- [ ] **is-subsequence** - Is Subsequence
+- [ ] **reverse-string** - Reverse String
+- [ ] **reverse-words-iii** - Reverse Words in String III
+- [ ] **squares-of-a-sorted-array** - Squares of a Sorted Array
+- [ ] **string-compression** - String Compression
 
 ### Sliding Window
-- [ ] **longest-substring-without-repeating** - Longest Substring Without Repeating Characters (LeetCode 3)
+- [x] **longest-substring-without-repeating** - Longest Substring Without Repeating Characters (LeetCode 3)
+- [ ] **maximum-average-subarray** - Maximum Average Subarray I
 
 ### Stack
-- [ ] **valid-parentheses** - Valid Parentheses (LeetCode 20)
+- [x] **valid-parentheses** - Valid Parentheses (LeetCode 20)
 
 ### Binary Search
-- [ ] **binary-search** - Binary Search (LeetCode 704)
+- [x] **binary-search** - Binary Search (LeetCode 704)
 - [ ] **first-bad-version** - First Bad Version (LeetCode 278)
-- [ ] **sqrt-x** - Sqrt(x) (LeetCode 69)
 - [ ] **search-2d-matrix** - Search a 2D Matrix (LeetCode 74)
+- [ ] **sqrt-x** - Sqrt(x) (LeetCode 69)
 
 ### Linked List
-- [ ] **reverse-linked-list** - Reverse Linked List (LeetCode 206)
-- [ ] **merge-two-sorted-lists** - Merge Two Sorted Lists (LeetCode 21)
 - [ ] **linked-list-cycle** - Linked List Cycle (LeetCode 141)
+- [ ] **merge-two-sorted-lists** - Merge Two Sorted Lists (LeetCode 21)
+- [ ] **palindrome-linked-list** - Palindrome Linked List
+- [ ] **reverse-linked-list** - Reverse Linked List (LeetCode 206)
 
 ### Trees
+- [ ] **balanced-binary-tree** - Balanced Binary Tree
+- [ ] **construct-string-from-binary-tree** - Construct String from Binary Tree
+- [ ] **diameter-of-binary-tree** - Diameter of Binary Tree
+- [ ] **find-mode-bst** - Find Mode in Binary Search Tree
 - [ ] **invert-binary-tree** - Invert Binary Tree (LeetCode 226)
 - [ ] **maximum-depth-of-binary-tree** - Maximum Depth of Binary Tree (LeetCode 104)
 - [ ] **same-tree** - Same Tree (LeetCode 100)
 - [ ] **subtree-of-another-tree** - Subtree of Another Tree (LeetCode 572)
+- [ ] **sum-of-left-leaves** - Sum of Left Leaves
 
 ### Dynamic Programming
-- [ ] **climbing-stairs** - Climbing Stairs (LeetCode 70)
+- [x] **climbing-stairs** - Climbing Stairs (LeetCode 70)
 - [ ] **house-robber** - House Robber (LeetCode 198)
-- [ ] **min-cost-climbing-stairs** - Min Cost Climbing Stairs (LeetCode 746)
 - [ ] **maximum-subarray** - Maximum Subarray (LeetCode 53)
+- [ ] **min-cost-climbing-stairs** - Min Cost Climbing Stairs (LeetCode 746)
 
 ### Bit Manipulation
-- [ ] **single-number** - Single Number (LeetCode 136)
-- [ ] **number-of-1-bits** - Number of 1 Bits (LeetCode 191)
+- [ ] **add-binary** - Add Binary
+- [ ] **binary-number-alternating-bits** - Binary Number with Alternating Bits
+- [ ] **convert-number-to-hexadecimal** - Convert Number to Hexadecimal
 - [ ] **counting-bits** - Counting Bits (LeetCode 338)
-- [ ] **reverse-bits** - Reverse Bits (LeetCode 190)
+- [ ] **hamming-distance** - Hamming Distance
 - [ ] **missing-number** - Missing Number (LeetCode 268)
+- [ ] **number-of-1-bits** - Number of 1 Bits (LeetCode 191)
+- [ ] **prime-number-of-set-bits** - Prime Number of Set Bits
+- [ ] **reverse-bits** - Reverse Bits (LeetCode 190)
+- [ ] **single-number** - Single Number (LeetCode 136)
+- [ ] **single-number-ii** - Single Number II
 
 ### Math & Geometry
+- [ ] **add-strings** - Add Strings
+- [ ] **base-7** - Base 7
+- [ ] **excel-sheet-column-number** - Excel Sheet Column Number
+- [ ] **factorial-trailing-zeroes** - Factorial Trailing Zeroes
+- [ ] **fizz-buzz** - Fizz Buzz
 - [ ] **happy-number** - Happy Number (LeetCode 202)
+- [ ] **palindrome-number** - Palindrome Number
+- [ ] **perfect-number** - Perfect Number
 - [ ] **plus-one** - Plus One (LeetCode 66)
+- [ ] **power-of-two** - Power of Two
+- [ ] **roman-to-integer** - Roman to Integer
+- [ ] **self-dividing-numbers** - Self Dividing Numbers
 
 ### Intervals
 - [ ] **meeting-rooms** - Meeting Rooms (LeetCode 252)
 
 ### Greedy
+- [ ] **assign-cookies** - Assign Cookies
+- [ ] **can-place-flowers** - Can Place Flowers
 - [ ] **jump-game** - Jump Game (LeetCode 55)
 
-### Advanced Topics
-- [ ] **detect-squares** - Detect Squares (LeetCode 2013)
-
-### 추가 Easy 문제들 (55개)
-- [ ] **palindrome-number** - Palindrome Number
-- [ ] **roman-to-integer** - Roman to Integer
-- [ ] **longest-common-prefix** - Longest Common Prefix
-- [ ] **remove-element** - Remove Element
-- [ ] **find-index-first-occurrence** - Find Index of First Occurrence
+### String
 - [ ] **length-of-last-word** - Length of Last Word
-- [ ] **merge-sorted-array** - Merge Sorted Array
-- [ ] **add-binary** - Add Binary
-- [ ] **pascal-triangle** - Pascal's Triangle
-- [ ] **single-number-ii** - Single Number II
-- [ ] **majority-element** - Majority Element
-- [ ] **excel-sheet-column-number** - Excel Sheet Column Number
-- [ ] **factorial-trailing-zeroes** - Factorial Trailing Zeroes
-- [ ] **rotate-array** - Rotate Array
-- [ ] **reverse-string** - Reverse String
-- [ ] **first-unique-character** - First Unique Character in String
-- [ ] **ransom-note** - Ransom Note
-- [ ] **fizz-buzz** - Fizz Buzz
-- [ ] **add-strings** - Add Strings
-- [ ] **find-difference** - Find the Difference
-- [ ] **is-subsequence** - Is Subsequence
-- [ ] **binary-watch** - Binary Watch
-- [ ] **sum-of-left-leaves** - Sum of Left Leaves
-- [ ] **convert-number-to-hexadecimal** - Convert Number to Hexadecimal
-- [ ] **string-compression** - String Compression
-- [ ] **find-all-disappeared-numbers** - Find All Numbers Disappeared in Array
-- [ ] **assign-cookies** - Assign Cookies
-- [ ] **repeated-substring-pattern** - Repeated Substring Pattern
-- [ ] **hamming-distance** - Hamming Distance
 - [ ] **license-key-formatting** - License Key Formatting
-- [ ] **keyboard-row** - Keyboard Row
-- [ ] **next-greater-element** - Next Greater Element I
-- [ ] **find-mode-bst** - Find Mode in Binary Search Tree
-- [ ] **base-7** - Base 7
-- [ ] **relative-ranks** - Relative Ranks
-- [ ] **perfect-number** - Perfect Number
-- [ ] **construct-string-from-binary-tree** - Construct String from Binary Tree
-- [ ] **reverse-string-ii** - Reverse String II
-- [ ] **diameter-of-binary-tree** - Diameter of Binary Tree
-- [ ] **student-attendance-record** - Student Attendance Record I
-- [ ] **reverse-words-iii** - Reverse Words in String III
-- [ ] **array-partition-i** - Array Partition I
-- [ ] **maximum-average-subarray** - Maximum Average Subarray I
-- [ ] **set-mismatch** - Set Mismatch
-- [ ] **can-place-flowers** - Can Place Flowers
-- [ ] **maximum-distance-in-arrays** - Maximum Distance in Arrays
-- [ ] **degree-of-array** - Degree of an Array
-- [ ] **shortest-completing-word** - Shortest Completing Word
-- [ ] **jewels-and-stones** - Jewels and Stones
+- [ ] **longest-common-prefix** - Longest Common Prefix
 - [ ] **number-of-lines** - Number of Lines To Write String
-- [ ] **unique-morse-code** - Unique Morse Code Words
-- [ ] **subdomain-visit-count** - Subdomain Visit Count
-- [ ] **self-dividing-numbers** - Self Dividing Numbers
-- [ ] **binary-number-alternating-bits** - Binary Number with Alternating Bits
-- [ ] **prime-number-of-set-bits** - Prime Number of Set Bits
+- [ ] **repeated-substring-pattern** - Repeated Substring Pattern
+- [ ] **reverse-string-ii** - Reverse String II
 - [ ] **rotate-string** - Rotate String
+- [ ] **student-attendance-record** - Student Attendance Record I
+- [ ] **valid-palindrome** - Valid Palindrome
+
+### Backtracking
+- [ ] **binary-watch** - Binary Watch
+
+### Heap / Priority Queue
+- [ ] **kth-largest-element-in-a-stream** - Kth Largest Element in a Stream
+
 
 ---
 
-## 🟡 Medium (140문제)
+## 🟡 Medium (150문제)
 
 ### Array & Hashing
 - [ ] **3sum** - 3Sum (LeetCode 15)
+- [ ] **4sum** - 4Sum
 - [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
+- [ ] **encode-decode-strings** - Encode and Decode Strings
+- [ ] **group-anagrams** - Group Anagrams
+- [ ] **next-permutation** - Next Permutation
+- [ ] **product-of-array-except-self** - Product of Array Except Self
+- [ ] **sort-colors** - Sort Colors
+- [ ] **spiral-matrix-ii** - Spiral Matrix II
+- [ ] **top-k-frequent-elements** - Top K Frequent Elements (LeetCode 347)
+- [ ] **valid-sudoku** - Valid Sudoku
 
 ### Two Pointers
-- [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **3sum** - 3Sum (LeetCode 15)
-- [ ] **trapping-rain-water** - Trapping Rain Water (LeetCode 42)
+- [ ] **3sum-closest** - 3Sum Closest
+- [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
+- [ ] **two-sum-ii-input-array-is-sorted** - Two Sum II - Input Array Is Sorted
 
 ### Sliding Window
-- [ ] **longest-substring-without-repeating** - Longest Substring Without Repeating Characters (LeetCode 3)
+- [x] **longest-substring-without-repeating** - Longest Substring Without Repeating Characters (LeetCode 3)
 - [ ] **palindromic-substrings** - Palindromic Substrings (LeetCode 647)
+- [ ] **permutation-in-string** - Permutation in String
+
+### Stack
+- [ ] **car-fleet** - Car Fleet
+- [ ] **daily-temperatures** - Daily Temperatures
+- [ ] **evaluate-reverse-polish** - Evaluate Reverse Polish Notation
+- [ ] **simplify-path** - Simplify Path
 
 ### Binary Search
 - [ ] **find-minimum-rotated-sorted-array** - Find Minimum in Rotated Sorted Array (LeetCode 153)
-- [ ] **search-rotated-sorted-array** - Search in Rotated Sorted Array (LeetCode 33)
+- [ ] **find-peak-element** - Find Peak Element
 - [ ] **koko-eating-bananas** - Koko Eating Bananas (LeetCode 875)
+- [ ] **search-insert-position** - Search Insert Position
+- [ ] **search-range** - Search for a Range
+- [ ] **search-rotated-sorted-array** - Search in Rotated Sorted Array (LeetCode 33)
 - [ ] **time-based-key-value** - Time Based Key-Value Store (LeetCode 981)
 
 ### Linked List
 - [ ] **add-two-numbers** - Add Two Numbers (LeetCode 2)
-- [ ] **reorder-list** - Reorder List (LeetCode 143)
-- [ ] **remove-nth-node-from-end** - Remove Nth Node From End of List (LeetCode 19)
+- [ ] **add-two-numbers-ii** - Add Two Numbers II
+- [ ] **copy-list-random-pointer** - Copy List with Random Pointer
+- [ ] **design-linked-list** - Design Linked List
 - [ ] **find-duplicate-number** - Find the Duplicate Number (LeetCode 287)
+- [ ] **insertion-sort-list** - Insertion Sort List
 - [ ] **lru-cache** - LRU Cache (LeetCode 146)
+- [ ] **remove-nth-node-from-end** - Remove Nth Node From End of List (LeetCode 19)
+- [ ] **reorder-list** - Reorder List (LeetCode 143)
+- [ ] **rotate-list** - Rotate List
+- [ ] **sort-list** - Sort List
+- [ ] **swap-nodes-pairs** - Swap Nodes in Pairs
 
 ### Trees
-- [ ] **lowest-common-ancestor** - Lowest Common Ancestor of BST (LeetCode 235)
+- [ ] **binary-tree-inorder** - Binary Tree Inorder Traversal
 - [ ] **binary-tree-level-order** - Binary Tree Level Order Traversal (LeetCode 102)
-- [ ] **validate-bst** - Validate Binary Search Tree (LeetCode 98)
-- [ ] **kth-smallest-bst** - Kth Smallest Element in BST (LeetCode 230)
+- [ ] **binary-tree-level-order-ii** - Binary Tree Level Order Traversal II
+- [ ] **binary-tree-postorder** - Binary Tree Postorder Traversal
+- [ ] **binary-tree-preorder** - Binary Tree Preorder Traversal
+- [ ] **binary-tree-right-side** - Binary Tree Right Side View
+- [ ] **construct-from-preorder-postorder** - Construct from Preorder and Postorder
 - [ ] **construct-tree-preorder-inorder** - Construct Binary Tree from Preorder and Inorder (LeetCode 105)
+- [ ] **count-good-nodes-in-binary-tree** - Count Good Nodes in Binary Tree
+- [ ] **flatten-binary-tree** - Flatten Binary Tree to Linked List
+- [ ] **kth-smallest-bst** - Kth Smallest Element in BST (LeetCode 230)
+- [ ] **lowest-common-ancestor** - Lowest Common Ancestor of BST (LeetCode 235)
+- [ ] **populating-next-right** - Populating Next Right Pointers
+- [ ] **populating-next-right-ii** - Populating Next Right Pointers II
+- [ ] **recover-bst** - Recover Binary Search Tree
+- [ ] **sum-root-to-leaf** - Sum Root to Leaf Numbers
+- [ ] **unique-bst** - Unique Binary Search Trees
+- [ ] **unique-bst-ii** - Unique Binary Search Trees II
+- [ ] **validate-bst** - Validate Binary Search Tree (LeetCode 98)
+- [ ] **zigzag-level-order** - Binary Tree Zigzag Level Order Traversal
 
 ### Graphs
-- [ ] **number-of-islands** - Number of Islands (LeetCode 200)
+- [ ] **battleships-in-a-board** - Battleships in a Board
 - [ ] **clone-graph** - Clone Graph (LeetCode 133)
-- [ ] **pacific-atlantic-water** - Pacific Atlantic Water Flow (LeetCode 417)
-- [ ] **surrounded-regions** - Surrounded Regions (LeetCode 130)
-- [ ] **rotting-oranges** - Rotting Oranges (LeetCode 994)
-- [ ] **walls-and-gates** - Walls and Gates (LeetCode 286)
 - [ ] **course-schedule** - Course Schedule (LeetCode 207)
-- [ ] **word-ladder** - Word Ladder (LeetCode 127)
 - [ ] **graph-valid-tree** - Graph Valid Tree (LeetCode 261)
 - [ ] **number-connected-components** - Number of Connected Components (LeetCode 323)
+- [ ] **number-of-islands** - Number of Islands (LeetCode 200)
+- [ ] **pacific-atlantic-water** - Pacific Atlantic Water Flow (LeetCode 417)
 - [ ] **redundant-connection** - Redundant Connection (LeetCode 684)
+- [ ] **rotting-oranges** - Rotting Oranges (LeetCode 994)
+- [ ] **surrounded-regions** - Surrounded Regions (LeetCode 130)
+- [ ] **walls-and-gates** - Walls and Gates (LeetCode 286)
+- [ ] **word-ladder** - Word Ladder (LeetCode 127)
 
 ### Dynamic Programming
-- [ ] **unique-paths** - Unique Paths (LeetCode 62)
-- [ ] **coin-change** - Coin Change (LeetCode 322)
-- [ ] **maximum-product-subarray** - Maximum Product Subarray (LeetCode 152)
-- [ ] **word-break** - Word Break (LeetCode 139)
+- [x] **coin-change** - Coin Change (LeetCode 322)
+- [x] **house-robber** - House Robber (LeetCode 198)
 - [ ] **decode-ways** - Decode Ways (LeetCode 91)
+- [ ] **interleaving-string** - Interleaving String
+- [ ] **longest-common-subsequence** - Longest Common Subsequence (LeetCode 1143)
 - [ ] **longest-increasing-subsequence** - Longest Increasing Subsequence (LeetCode 300)
+- [ ] **longest-palindromic-substring** - Longest Palindromic Substring
+- [ ] **maximum-product-subarray** - Maximum Product Subarray (LeetCode 152)
+- [ ] **minimum-path-sum** - Minimum Path Sum
 - [ ] **partition-equal-subset-sum** - Partition Equal Subset Sum (LeetCode 416)
 - [ ] **target-sum** - Target Sum (LeetCode 494)
-- [ ] **longest-common-subsequence** - Longest Common Subsequence (LeetCode 1143)
+- [ ] **unique-paths** - Unique Paths (LeetCode 62)
+- [ ] **unique-paths-ii** - Unique Paths II
+- [ ] **word-break** - Word Break (LeetCode 139)
 
 ### Backtracking
-- [ ] **word-search** - Word Search (LeetCode 79)
 - [ ] **combination-sum** - Combination Sum (LeetCode 39)
+- [ ] **combination-sum-ii** - Combination Sum II
+- [ ] **combinations** - Combinations
 - [ ] **generate-parentheses** - Generate Parentheses (LeetCode 22)
+- [ ] **letter-case-permutation** - Letter Case Permutation
 - [ ] **letter-combinations** - Letter Combinations of Phone Number (LeetCode 17)
-- [ ] **subsets** - Subsets (LeetCode 78)
-- [ ] **permutations** - Permutations (LeetCode 46)
 - [ ] **palindrome-partitioning** - Palindrome Partitioning (LeetCode 131)
+- [ ] **permutation-sequence** - Permutation Sequence
+- [ ] **permutations** - Permutations (LeetCode 46)
+- [ ] **permutations-ii** - Permutations II
+- [ ] **subsets** - Subsets (LeetCode 78)
+- [ ] **subsets-ii** - Subsets II
+- [ ] **word-search** - Word Search (LeetCode 79)
 
 ### Heap / Priority Queue
 - [ ] **kth-largest-element** - Kth Largest Element in Array (LeetCode 215)
 
 ### Intervals
-- [ ] **merge-intervals** - Merge Intervals (LeetCode 56)
 - [ ] **insert-interval** - Insert Interval (LeetCode 57)
-- [ ] **non-overlapping-intervals** - Non-overlapping Intervals (LeetCode 435)
 - [ ] **meeting-rooms-ii** - Meeting Rooms II (LeetCode 253)
+- [ ] **merge-intervals** - Merge Intervals (LeetCode 56)
+- [ ] **non-overlapping-intervals** - Non-overlapping Intervals (LeetCode 435)
 
 ### Math & Geometry
-- [ ] **rotate-image** - Rotate Image (LeetCode 48)
-- [ ] **spiral-matrix** - Spiral Matrix (LeetCode 54)
-- [ ] **set-matrix-zeroes** - Set Matrix Zeroes (LeetCode 73)
-- [ ] **pow-x-n** - Pow(x, n) (LeetCode 50)
+- [ ] **divide-two-integers** - Divide Two Integers
+- [ ] **integer-to-roman** - Integer to Roman
+- [ ] **max-points-on-line** - Max Points on a Line
 - [ ] **multiply-strings** - Multiply Strings (LeetCode 43)
+- [ ] **pow-x-n** - Pow(x, n) (LeetCode 50)
+- [ ] **rotate-image** - Rotate Image (LeetCode 48)
+- [ ] **set-matrix-zeroes** - Set Matrix Zeroes (LeetCode 73)
+- [ ] **spiral-matrix** - Spiral Matrix (LeetCode 54)
+- [ ] **string-to-integer** - String to Integer (atoi)
+- [ ] **valid-number** - Valid Number
 
 ### Bit Manipulation
+- [ ] **single-number-iii** - Single Number III
 - [ ] **sum-of-two-integers** - Sum of Two Integers (LeetCode 371)
 
-### Advanced Topics
-- [ ] **swim-in-water** - Swim in Rising Water (LeetCode 778)
-
-### 추가 Medium 문제들 (83개)
-- [ ] **add-two-numbers-ii** - Add Two Numbers II
-- [ ] **longest-palindromic-substring** - Longest Palindromic Substring
-- [ ] **zigzag-conversion** - ZigZag Conversion
-- [ ] **string-to-integer** - String to Integer (atoi)
-- [ ] **integer-to-roman** - Integer to Roman
-- [ ] **4sum** - 4Sum
-- [ ] **remove-nth-from-end** - Remove Nth Node From End
-- [ ] **valid-sudoku** - Valid Sudoku
-- [ ] **search-insert-position** - Search Insert Position
-- [ ] **combination-sum-ii** - Combination Sum II
-- [ ] **first-missing-positive** - First Missing Positive
-- [ ] **jump-game-ii** - Jump Game II
-- [ ] **permutations-ii** - Permutations II
-- [ ] **rotate-list** - Rotate List
-- [ ] **unique-paths-ii** - Unique Paths II
-- [ ] **minimum-path-sum** - Minimum Path Sum
-- [ ] **add-binary** - Add Binary
-- [ ] **edit-distance** - Edit Distance
-- [ ] **minimum-window-substring** - Minimum Window Substring
-- [ ] **combinations** - Combinations
-- [ ] **subsets-ii** - Subsets II
-- [ ] **word-search-ii** - Word Search II
-- [ ] **largest-rectangle-histogram** - Largest Rectangle in Histogram
-- [ ] **maximal-rectangle** - Maximal Rectangle
-- [ ] **binary-tree-inorder** - Binary Tree Inorder Traversal
-- [ ] **unique-bst** - Unique Binary Search Trees
-- [ ] **unique-bst-ii** - Unique Binary Search Trees II
-- [ ] **validate-binary-tree** - Validate Binary Search Tree
-- [ ] **recover-bst** - Recover Binary Search Tree
-- [ ] **binary-tree-level-order-ii** - Binary Tree Level Order Traversal II
-- [ ] **zigzag-level-order** - Binary Tree Zigzag Level Order Traversal
-- [ ] **maximum-depth** - Maximum Depth of Binary Tree
-- [ ] **construct-from-preorder-postorder** - Construct from Preorder and Postorder
-- [ ] **binary-tree-right-side** - Binary Tree Right Side View
-- [ ] **flatten-binary-tree** - Flatten Binary Tree to Linked List
-- [ ] **populating-next-right** - Populating Next Right Pointers
-- [ ] **populating-next-right-ii** - Populating Next Right Pointers II
-- [ ] **sum-root-to-leaf** - Sum Root to Leaf Numbers
-- [ ] **binary-tree-maximum-path** - Binary Tree Maximum Path Sum
-- [ ] **gas-station** - Gas Station
-- [ ] **candy** - Candy
-- [ ] **single-number-iii** - Single Number III
-- [ ] **copy-list-random-pointer** - Copy List with Random Pointer
-- [ ] **word-break-ii** - Word Break II
-- [ ] **lru-cache** - LRU Cache
-- [ ] **sort-list** - Sort List
-- [ ] **insertion-sort-list** - Insertion Sort List
-- [ ] **binary-tree-postorder** - Binary Tree Postorder Traversal
-- [ ] **binary-tree-preorder** - Binary Tree Preorder Traversal
-- [ ] **reorder-list** - Reorder List
-- [ ] **evaluate-reverse-polish** - Evaluate Reverse Polish Notation
-- [ ] **reverse-words** - Reverse Words in String
-- [ ] **max-points-on-line** - Max Points on a Line
-- [ ] **sort-colors** - Sort Colors
-- [ ] **minimum-window** - Minimum Window Substring
-- [ ] **3sum-closest** - 3Sum Closest
-- [ ] **4sum** - 4Sum
-- [ ] **generate-parentheses** - Generate Parentheses
-- [ ] **swap-nodes-pairs** - Swap Nodes in Pairs
-- [ ] **divide-two-integers** - Divide Two Integers
-- [ ] **next-permutation** - Next Permutation
-- [ ] **longest-valid-parentheses** - Longest Valid Parentheses
-- [ ] **search-range** - Search for a Range
+### String
 - [ ] **count-and-say** - Count and Say
-- [ ] **multiply-strings** - Multiply Strings
-- [ ] **wildcard-matching** - Wildcard Matching
-- [ ] **permutation-sequence** - Permutation Sequence
-- [ ] **rotate-image** - Rotate Image
-- [ ] **group-anagrams** - Group Anagrams
-- [ ] **pow-x-n** - Pow(x, n)
-- [ ] **n-queens-ii** - N-Queens II
-- [ ] **maximum-subarray** - Maximum Subarray
-- [ ] **spiral-matrix** - Spiral Matrix
-- [ ] **jump-game** - Jump Game
-- [ ] **merge-intervals** - Merge Intervals
-- [ ] **insert-interval** - Insert Interval
-- [ ] **length-of-last-word** - Length of Last Word
-- [ ] **spiral-matrix-ii** - Spiral Matrix II
-- [ ] **permutation-sequence** - Permutation Sequence
-- [ ] **rotate-list** - Rotate List
-- [ ] **unique-paths** - Unique Paths
-- [ ] **unique-paths-ii** - Unique Paths II
-- [ ] **minimum-path-sum** - Minimum Path Sum
-- [ ] **valid-number** - Valid Number
-- [ ] **plus-one** - Plus One
-- [ ] **add-binary** - Add Binary
-- [ ] **text-justification** - Text Justification
-- [ ] **sqrt-x** - Sqrt(x)
-- [ ] **climbing-stairs** - Climbing Stairs
-- [ ] **simplify-path** - Simplify Path
-- [ ] **edit-distance** - Edit Distance
-- [ ] **set-matrix-zeroes** - Set Matrix Zeroes
-- [ ] **search-2d-matrix** - Search a 2D Matrix
-- [ ] **sort-colors** - Sort Colors
+- [ ] **reverse-words** - Reverse Words in String
+- [ ] **zigzag-conversion** - ZigZag Conversion
 
 ---
 
-## 🔴 Hard (28문제)
+## 🔴 Hard (32문제)
 
-### Dynamic Programming
-- [ ] **edit-distance** - Edit Distance (LeetCode 72)
-- [ ] **burst-balloons** - Burst Balloons (LeetCode 312)
-- [ ] **regular-expression-matching** - Regular Expression Matching (LeetCode 10)
+### Array & Hashing
+- [ ] **first-missing-positive** - First Missing Positive
+- [ ] **substring-concatenation** - Substring with Concatenation of All Words
 
-### Heap / Priority Queue
-- [ ] **swim-in-water** - Swim in Rising Water (LeetCode 778)
+### Two Pointers
+- [ ] **trapping-rain-water** - Trapping Rain Water
 
-### Backtracking
-- [ ] **n-queens** - N-Queens (LeetCode 51)
+### Sliding Window
+- [ ] **minimum-window-substring** - Minimum Window Substring
 
-### Graphs
-- [ ] **alien-dictionary** - Alien Dictionary (LeetCode 269)
-
-### Trees
-- [ ] **serialize-deserialize-tree** - Serialize and Deserialize Binary Tree (LeetCode 297)
+### Stack
+- [ ] **largest-rectangle-histogram** - Largest Rectangle in Histogram
 
 ### Binary Search
 - [ ] **median-two-sorted-arrays** - Median of Two Sorted Arrays (LeetCode 4)
 
-### 추가 Hard 문제들 (20개)
-- [ ] **merge-k-sorted-lists** - Merge k Sorted Lists
+### Linked List
 - [ ] **reverse-nodes-k-group** - Reverse Nodes in k-Group
-- [ ] **substring-concatenation** - Substring with Concatenation of All Words
-- [ ] **longest-valid-parentheses** - Longest Valid Parentheses
-- [ ] **first-missing-positive** - First Missing Positive
-- [ ] **trapping-rain-water** - Trapping Rain Water
-- [ ] **wildcard-matching** - Wildcard Matching
-- [ ] **jump-game-ii** - Jump Game II
-- [ ] **n-queens** - N-Queens
-- [ ] **n-queens-ii** - N-Queens II
-- [ ] **insert-interval** - Insert Interval
-- [ ] **text-justification** - Text Justification
-- [ ] **minimum-window-substring** - Minimum Window Substring
-- [ ] **largest-rectangle-histogram** - Largest Rectangle in Histogram
-- [ ] **maximal-rectangle** - Maximal Rectangle
+
+### Trees
 - [ ] **binary-tree-maximum-path** - Binary Tree Maximum Path Sum
+- [ ] **serialize-deserialize-tree** - Serialize and Deserialize Binary Tree (LeetCode 297)
+
+### Graphs
+- [ ] **alien-dictionary** - Alien Dictionary (LeetCode 269)
+- [ ] **cheapest-flights-within-k-stops** - Cheapest Flights Within K Stops
 - [ ] **word-ladder-ii** - Word Ladder II
+
+### Dynamic Programming
+- [ ] **burst-balloons** - Burst Balloons (LeetCode 312)
+- [ ] **distinct-subsequences** - Distinct Subsequences
+- [ ] **edit-distance** - Edit Distance (LeetCode 72)
+- [ ] **frog-jump** - Frog Jump
+- [ ] **longest-valid-parentheses** - Longest Valid Parentheses
+- [ ] **maximal-rectangle** - Maximal Rectangle
 - [ ] **palindrome-partitioning-ii** - Palindrome Partitioning II
+- [ ] **regular-expression-matching** - Regular Expression Matching (LeetCode 10)
+- [ ] **wildcard-matching** - Wildcard Matching
+- [ ] **word-break-ii** - Word Break II
+
+### Backtracking
+- [ ] **n-queens** - N-Queens (LeetCode 51)
+- [ ] **n-queens-ii** - N-Queens II
+
+### Heap / Priority Queue
+- [ ] **find-median-from-data-stream** - Find Median from Data Stream
+- [ ] **merge-k-sorted-lists** - Merge k Sorted Lists
+- [ ] **swim-in-water** - Swim in Rising Water (LeetCode 778)
+
+### Greedy
 - [ ] **candy** - Candy
 - [ ] **gas-station** - Gas Station
+- [ ] **jump-game-ii** - Jump Game II
+
+### String
+- [ ] **text-justification** - Text Justification
 
 ---
 

@@ -40,9 +40,18 @@
  * 출력: 0
  */
 function coinChange(coins: number[], amount: number): number {
-    // 여기에 코드를 작성하세요
-    
-    return -1;
+    const dp = Array(amount + 1).fill(Infinity);
+    dp[0] = 0;
+
+    for (let i = 1; i <= amount; i++) {
+        for (const coin of coins) {
+            if (i >= coin) {
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+            }
+        }
+    }
+
+    return dp[amount] === Infinity ? -1 : dp[amount];
 }
 
 // 테스트 케이스

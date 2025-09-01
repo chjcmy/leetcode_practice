@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Dynamic_Programming.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic_Programming"
+              "title": "README"
             }
           }
         ]
@@ -171,29 +171,31 @@
   },
   "active": "d038937b721f9ca4",
   "lastOpenFiles": [
-    "docs/TOMORROW_PLAN.md",
-    "leetcode-progress-tracker.md",
-    "docs/Binary_Search.md",
+    "docs/typescript-types.md",
+    "src/solve/easy/remove-duplicates-sorted-array.ts",
+    "src/solve/hard/serialize-deserialize-binary-tree.ts",
+    "src/solve/hard/word-search-ii.ts",
+    "src/solve/easy/word-pattern.ts",
+    "src/solve/medium/word-break-problem.ts",
+    "src/solve/medium/validate-binary-search-tree.ts",
+    "src/solve/medium/valid-parenthesis-string.ts",
+    "src/solve/hard/unique-paths-iii.ts",
+    "src/solve/medium/twitter-design.ts",
+    "src/solve/hard/trapping-rain-water-ii.ts",
+    "README.md",
+    "docs/Greedy_Algorithms.md",
+    "docs/LANGCHAIN_REALITY_CHECK.md",
     "docs/Heap_Priority_Queue.md",
     "docs/Backtracking.md",
-    "docs/Greedy_Algorithms.md",
-    "docs/Sliding_Window.md",
-    "docs/Two_Pointers.md",
-    "docs/Dynamic_Programming.md",
+    "docs/Binary_Search.md",
     "docs/DFS_BFS.md",
-    "docs/LANGCHAIN_REALITY_CHECK.md",
+    "docs/Dynamic_Programming.md",
+    "docs/Sliding_Window.md",
+    "docs/TOMORROW_PLAN.md",
+    "docs/Two_Pointers.md",
+    "leetcode-progress-tracker.md",
     "TOMORROW_PLAN.md",
     "매버릭스_지원서_최성현.md",
-    "최성현 이력서.pdf",
-    "src/solve/cut-off-trees-golf.ts",
-    "src/solve/count-unique-characters.ts",
-    "src/solve/race-car.ts",
-    "src/solve/race-car.ts.tmp.76946.1756361711118",
-    "src/solve/cat-mouse-game.ts",
-    "src/solve/longest-duplicate-substring.ts",
-    "src/solve/find-minimum-time-finish-jobs.ts",
-    "src/solve/student-attendance-record-ii.ts",
-    "src/solve/optimal-account-balancing.ts",
     "CLAUDE.md",
     "EXTREME_4DAY_MASTERY.md",
     "INTENSIVE_MASTERY_PLAN.md",
@@ -203,9 +205,6 @@
     "REACT_PATTERN_GUIDE.md",
     "4DAY_COMPLETE_PLAN.md",
     "docs/Essential_TypeScript_JavaScript_Syntax.md",
-    "docs/Algorithm_Mastery_Guide.md",
-    "docs/LangChain_Mastery_Guide.md",
-    "docs/Prompt_Engineering_Guide.md",
-    "docs/Project_Development_Guide.md"
+    "docs/Algorithm_Mastery_Guide.md"
   ]
 }
