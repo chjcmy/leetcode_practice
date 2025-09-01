@@ -148,7 +148,7 @@
 ## 🟡 Medium (150문제)
 
 ### Array & Hashing
-- [ ] **3sum** - 3Sum (LeetCode 15)
+- [x] **3sum** - 3Sum (LeetCode 15)
 - [ ] **4sum** - 4Sum
 - [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **encode-decode-strings** - Encode and Decode Strings
