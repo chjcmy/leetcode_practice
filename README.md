@@ -1,6 +1,6 @@
 # 🎯 LeetCode Progress Tracker
 
-> **총 261개 문제** | 업데이트: 2025년 9월 1일
+> **총 261개 문제** | 업데이트: 2025년 9월 2일
 
 ---
 
@@ -8,10 +8,10 @@
 
 | 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
 |--------|------|--------|---------|--------|
-| **🟢 Easy** | 7 | 85 | 92 | 8% |
+| **🟢 Easy** | 9 | 83 | 92 | 10% |
 | **🟡 Medium** | 3 | 138 | 141 | 2% |
 | **🔴 Hard** | 0 | 28 | 28 | 0% |
-| **전체** | **10** | **251** | **261** | 4% |
+| **전체** | **12** | **249** | **261** | 5% |
 
 ---
 
@@ -31,7 +31,7 @@
 - [ ] **jewels-and-stones** - Jewels and Stones
 - [ ] **keyboard-row** - Keyboard Row
 - [ ] **majority-element** - Majority Element
-- [ ] **merge-sorted-array** - Merge Sorted Array
+- [x] **merge-sorted-array** - Merge Sorted Array
 - [ ] **next-greater-element** - Next Greater Element I
 - [ ] **pascal-triangle** - Pascal's Triangle
 - [ ] **ransom-note** - Ransom Note
@@ -49,7 +49,7 @@
 - [x] **valid-parentheses** - Valid Parentheses (LeetCode 20)
 - [ ] **find-index-first-occurrence** - Find Index of First Occurrence
 - [ ] **is-subsequence** - Is Subsequence
-- [ ] **reverse-string** - Reverse String
+- [x] **reverse-string** - Reverse String
 - [ ] **reverse-words-iii** - Reverse Words in String III
 - [ ] **squares-of-a-sorted-array** - Squares of a Sorted Array
 - [ ] **string-compression** - String Compression
@@ -389,7 +389,7 @@
 
 ## 📈 진행 상황 업데이트
 
-**마지막 업데이트**: 2024년 8월 28일
+**마지막 업데이트**: 2025년 9월 2일
 - 총 253개 문제 준비 완료
 - 체크박스를 통해 진행 상황 추적
 - 난이도별 통계 자동 계산
