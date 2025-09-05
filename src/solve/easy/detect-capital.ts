@@ -27,8 +27,14 @@
  */
 
 function detectCapitalUse(word: string): boolean {
-    // 여기에 구현하세요
-    return false;
+    // 1. All letters are capitals (e.g., "USA")
+    // 2. All letters are not capitals (e.g., "leetcode")
+    // 3. Only the first letter is capital (e.g., "Google")
+    const allCaps = /^[A-Z]+$/;
+    const allLower = /^[a-z]+$/;
+    const firstCap = /^[A-Z][a-z]*$/; // * handles single-letter words like "A"
+
+    return allCaps.test(word) || allLower.test(word) || firstCap.test(word);
 }
 
 // Test cases

@@ -1,6 +1,6 @@
 # 🎯 LeetCode Progress Tracker
 
-> **총 261개 문제** | 업데이트: 2025년 9월 2일
+> **총 262개 문제** | 업데이트: 2025년 9월 5일
 
 ---
 
@@ -8,21 +8,21 @@
 
 | 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
 |--------|------|--------|---------|--------|
-| **🟢 Easy** | 9 | 83 | 92 | 10% |
-| **🟡 Medium** | 3 | 138 | 141 | 2% |
+| **🟢 Easy** | 13 | 80 | 93 | 14% |
+| **🟡 Medium** | 5 | 136 | 141 | 4% |
 | **🔴 Hard** | 0 | 28 | 28 | 0% |
-| **전체** | **12** | **249** | **261** | 5% |
+| **전체** | **18** | **244** | **262** | 7% |
 
 ---
 
-## 🟢 Easy (91문제)
+## 🟢 Easy (93문제)
 
 ### Array & Hashing
 - [x] **contains-duplicate** - Contains Duplicate (LeetCode 217)
 - [x] **two-sum** - Two Sum (LeetCode 1)
 - [x] **valid-anagram** - Valid Anagram (LeetCode 242)
-- [ ] **array-partition-i** - Array Partition I
-- [ ] **degree-of-array** - Degree of an Array
+- [x] **array-partition-i** - Array Partition I
+- [x] **degree-of-array** - Degree of an Array
 - [ ] **find-all-disappeared-numbers** - Find All Numbers Disappeared in Array
 - [ ] **find-difference** - Find the Difference
 - [ ] **find-pivot-index** - Find Pivot Index
@@ -48,7 +48,7 @@
 - [x] **best-time-to-buy-and-sell-stock** - Best Time to Buy and Sell Stock (LeetCode 121)
 - [x] **valid-parentheses** - Valid Parentheses (LeetCode 20)
 - [ ] **find-index-first-occurrence** - Find Index of First Occurrence
-- [ ] **is-subsequence** - Is Subsequence
+- [x] **is-subsequence** - Is Subsequence
 - [x] **reverse-string** - Reverse String
 - [ ] **reverse-words-iii** - Reverse Words in String III
 - [ ] **squares-of-a-sorted-array** - Squares of a Sorted Array
@@ -126,6 +126,7 @@
 - [ ] **jump-game** - Jump Game (LeetCode 55)
 
 ### String
+- [x] **detect-capital** - Detect Capital
 - [ ] **length-of-last-word** - Length of Last Word
 - [ ] **license-key-formatting** - License Key Formatting
 - [ ] **longest-common-prefix** - Longest Common Prefix
@@ -145,11 +146,11 @@
 
 ---
 
-## 🟡 Medium (150문제)
+## 🟡 Medium (141문제)
 
 ### Array & Hashing
 - [x] **3sum** - 3Sum (LeetCode 15)
-- [ ] **4sum** - 4Sum
+- [x] **4sum** - 4Sum
 - [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **encode-decode-strings** - Encode and Decode Strings
 - [ ] **group-anagrams** - Group Anagrams
@@ -261,7 +262,7 @@
 - [ ] **letter-combinations** - Letter Combinations of Phone Number (LeetCode 17)
 - [ ] **palindrome-partitioning** - Palindrome Partitioning (LeetCode 131)
 - [ ] **permutation-sequence** - Permutation Sequence
-- [ ] **permutations** - Permutations (LeetCode 46)
+- [x] **permutations** - Permutations (LeetCode 46)
 - [ ] **permutations-ii** - Permutations II
 - [ ] **subsets** - Subsets (LeetCode 78)
 - [ ] **subsets-ii** - Subsets II
@@ -299,7 +300,7 @@
 
 ---
 
-## 🔴 Hard (32문제)
+## 🔴 Hard (28문제)
 
 ### Array & Hashing
 - [ ] **first-missing-positive** - First Missing Positive
@@ -389,7 +390,7 @@
 
 ## 📈 진행 상황 업데이트
 
-**마지막 업데이트**: 2025년 9월 2일
+**마지막 업데이트**: 2025년 9월 5일
 - 총 253개 문제 준비 완료
 - 체크박스를 통해 진행 상황 추적
 - 난이도별 통계 자동 계산

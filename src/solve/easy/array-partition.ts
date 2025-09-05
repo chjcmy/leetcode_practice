@@ -29,8 +29,19 @@
  */
 
 function arrayPairSum(nums: number[]): number {
+
+    let result = 0;
+
+    nums.sort((a, b) => a - b);
+
+
     // 여기에 구현하세요
-    return 0;
+
+    for(let i = 0; i < nums.length - 1; i += 2) {
+        result += nums[i];
+    }
+
+    return result;
 }
 
 // Test cases

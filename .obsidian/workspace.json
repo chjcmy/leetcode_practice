@@ -169,8 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d038937b721f9ca4",
+  "active": "ebe4962cfdaf1409",
   "lastOpenFiles": [
+    "src/solve/medium/4sum.ts",
+    "src/solve/easy/reverse-string.ts",
     "docs/typescript-types.md",
     "src/solve/easy/remove-duplicates-sorted-array.ts",
     "src/solve/hard/serialize-deserialize-binary-tree.ts",
@@ -181,7 +183,6 @@
     "src/solve/medium/valid-parenthesis-string.ts",
     "src/solve/hard/unique-paths-iii.ts",
     "src/solve/medium/twitter-design.ts",
-    "src/solve/hard/trapping-rain-water-ii.ts",
     "README.md",
     "docs/Greedy_Algorithms.md",
     "docs/LANGCHAIN_REALITY_CHECK.md",

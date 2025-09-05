@@ -22,7 +22,37 @@
 
 function findShortestSubArray(nums: number[]): number {
     // 여기에 코드를 작성하세요
-    return 0;
+
+    const map: { [key: number]: { count: number, start: number, end: number}} = {};
+
+    let degree = 0;
+
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        if (map[num] === undefined) {
+            map[num] = { count: 1, start: i, end: i}
+        } else {
+            map[num].count++;
+            map[num].end = i;
+        }
+        
+        if (map[num].count > degree) {
+            degree = map[num].count
+        }
+    }
+
+    let minLength = nums.length
+
+    for (const num in map) {
+        if(map[num].count === degree) {
+            const length = map[num].end - map[num].start + 1;
+            if(length < minLength) {
+                minLength = length;
+            }
+        }
+            
+        }
+    return minLength;
 }
 
 // 테스트 케이스
