@@ -23,7 +23,11 @@
  * Input: nums = [1,1,5] -> Output: [1,5,1]
  */
 
-function nextPermutation(nums: number[]): void {
+/**
+ * @param {number[]} nums
+ * @return {void} Do not return anything, modify nums in-place instead.
+ */
+function nextPermutation(nums) {
     // 1. 피봇(i) 찾기: 오른쪽에서 왼쪽으로 가면서, 오른쪽 값보다 작은 첫번째 값
     // 예: [1, 3, 5, 4, 2] -> i는 3을 가리키는 인덱스 1
     let i = nums.length - 2;
