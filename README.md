@@ -9,9 +9,9 @@
 | 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
 |--------|------|--------|---------|--------|
 | **🟢 Easy** | 13 | 80 | 93 | 14% |
-| **🟡 Medium** | 5 | 136 | 141 | 4% |
+| **🟡 Medium** | 6 | 135 | 141 | 4% |
 | **🔴 Hard** | 0 | 28 | 28 | 0% |
-| **전체** | **18** | **244** | **262** | 7% |
+| **전체** | **19** | **243** | **262** | 7% |
 
 ---
 
@@ -128,7 +128,6 @@
 ### String
 - [x] **detect-capital** - Detect Capital
 - [ ] **length-of-last-word** - Length of Last Word
-- [ ] **license-key-formatting** - License Key Formatting
 - [ ] **longest-common-prefix** - Longest Common Prefix
 - [ ] **number-of-lines** - Number of Lines To Write String
 - [ ] **repeated-substring-pattern** - Repeated Substring Pattern
@@ -151,7 +150,7 @@
 ### Array & Hashing
 - [x] **3sum** - 3Sum (LeetCode 15)
 - [x] **4sum** - 4Sum
-- [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
+- [x] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **encode-decode-strings** - Encode and Decode Strings
 - [ ] **group-anagrams** - Group Anagrams
 - [ ] **next-permutation** - Next Permutation
@@ -164,7 +163,7 @@
 ### Two Pointers
 - [ ] **3sum** - 3Sum (LeetCode 15)
 - [ ] **3sum-closest** - 3Sum Closest
-- [ ] **container-with-most-water** - Container With Most Water (LeetCode 11)
+- [x] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **two-sum-ii-input-array-is-sorted** - Two Sum II - Input Array Is Sorted
 
 ### Sliding Window
@@ -273,7 +272,7 @@
 
 ### Intervals
 - [ ] **insert-interval** - Insert Interval (LeetCode 57)
-- [ ] **meeting-rooms-ii** - Meeting Rooms II (LeetCode 253)
+- [ ] **meeting-rooms-ii** - Meeting Rooms (LeetCode 253)
 - [ ] **merge-intervals** - Merge Intervals (LeetCode 56)
 - [ ] **non-overlapping-intervals** - Non-overlapping Intervals (LeetCode 435)
 
@@ -287,7 +286,7 @@
 - [ ] **set-matrix-zeroes** - Set Matrix Zeroes (LeetCode 73)
 - [ ] **spiral-matrix** - Spiral Matrix (LeetCode 54)
 - [ ] **string-to-integer** - String to Integer (atoi)
-- [ ] **valid-number** - Valid Number
+- [ ] **valid-number** - Valid Valid
 
 ### Bit Manipulation
 - [ ] **single-number-iii** - Single Number III
@@ -407,3 +406,37 @@
 ---
 
 **🚀 화이팅! 꾸준히 하면 반드시 성장할 수 있습니다!**
+
+---
+
+## 🗂️ SQL Problems
+
+### 📊 SQL 통계
+
+| 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
+|--------|------|--------|---------|--------|
+| **🟢 Easy** | 0 | 5 | 5 | 0% |
+| **🟡 Medium** | 0 | 5 | 5 | 0% |
+| **🔴 Hard** | 0 | 4 | 4 | 0% |
+| **전체** | **0** | **14** | **14** | 0% |
+
+---
+### 🟢 Easy (5문제)
+- [ ] **175-combine-two-tables** - Combine Two Tables
+- [ ] **181-employees-earning-more-than-their-managers** - Employees Earning More Than Their Managers
+- [ ] **595-big-countries** - Big Countries
+- [ ] **196-delete-duplicate-emails** - Delete Duplicate Emails
+- [ ] **620-not-boring-movies** - Not Boring Movies
+
+### 🟡 Medium (5문제)
+- [ ] **176-second-highest-salary** - Second Highest Salary
+- [ ] **180-consecutive-numbers** - Consecutive Numbers
+- [ ] **626-exchange-seats** - Exchange Seats
+- [ ] **178-rank-scores** - Rank Scores
+- [ ] **184-department-highest-salary** - Department Highest Salary
+
+### 🔴 Hard (4문제)
+- [ ] **185-department-top-three-salaries** - Department Top Three Salaries
+- [ ] **601-human-traffic-of-stadium** - Human Traffic of Stadium
+- [ ] **262-trips-and-users** - Trips and Users
+- [ ] **1174-immediate-food-delivery-ii** - Immediate Food Delivery II
