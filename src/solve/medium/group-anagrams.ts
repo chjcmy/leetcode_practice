@@ -22,7 +22,24 @@
 
 function groupAnagrams(strs: string[]): string[][] {
     // 여기에 구현하세요
-    return [];
+
+    // 새로운 string[] 을 만든다
+    const anagramMap: { [key: string]: string[] } = {};
+
+    // new_strs 에 strs 크기만큼 for문을 통해 계산한다
+        // str을 sort를 한다
+    for (const str of strs) {
+        const key = str.split('').sort().join();
+
+        if(anagramMap[key]) {
+            anagramMap[key].push(str);
+        } else {
+            anagramMap[key] = [str];
+        }
+    }
+
+    // 문자열을 비교하여 같은 글자가 있다면 그 배열에 넣는다 
+    return Object.values(anagramMap);
 }
 
 // Test cases

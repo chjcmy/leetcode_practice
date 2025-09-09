@@ -9,9 +9,9 @@
 | 난이도 | 해결 | 미해결 | 총 문제 | 진행률 |
 |--------|------|--------|---------|--------|
 | **🟢 Easy** | 13 | 80 | 93 | 14% |
-| **🟡 Medium** | 6 | 135 | 141 | 4% |
+| **🟡 Medium** | 7 | 134 | 141 | 5% |
 | **🔴 Hard** | 0 | 28 | 28 | 0% |
-| **전체** | **19** | **243** | **262** | 7% |
+| **전체** | **20** | **242** | **262** | 8% |
 
 ---
 
@@ -152,7 +152,7 @@
 - [x] **4sum** - 4Sum
 - [x] **container-with-most-water** - Container With Most Water (LeetCode 11)
 - [ ] **encode-decode-strings** - Encode and Decode Strings
-- [ ] **group-anagrams** - Group Anagrams
+- [x] **group-anagrams** - Group Anagrams
 - [ ] **next-permutation** - Next Permutation
 - [ ] **product-of-array-except-self** - Product of Array Except Self
 - [ ] **sort-colors** - Sort Colors
