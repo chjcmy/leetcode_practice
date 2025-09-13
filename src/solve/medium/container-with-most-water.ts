@@ -40,8 +40,30 @@
 
 function maxArea(height: number[]): number {
     // 여기에 코드를 작성하세요
+    // Hint: Two Pointer 기법 사용 - 양 끝에서 시작하여 중앙으로
+
+    let maxArea = 0;
+    let left = 0;
+    let right = height.length - 1;
+
+
+    while(left < right) {
+        if(left === right) {
+            right++;
+            continue;
+        }
+
+        const currentArea = (right - left) * Math.min(height[left], height[right]);
+        maxArea = Math.max(maxArea, currentArea)
+
+        if(height[left] < height[right] ){
+            left++;
+        } else {
+            right--;
+        }
+    }
     
-    return 0;
+    return maxArea;
 }
 
 // 테스트 케이스

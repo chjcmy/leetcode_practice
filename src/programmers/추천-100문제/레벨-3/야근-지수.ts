@@ -1,0 +1,30 @@
+/*
+ * 프로그래머스 - 야근 지수
+ * https://school.programmers.co.kr/learn/courses/30/lessons/12927
+ * Level 3
+ */
+
+/*
+  문제 설명:
+  회사원 Demi는 가끔 야근을 하는데요, 야근을 하면 야근 피로도가 쌓입니다. 
+  야근 피로도는 야근을 시작한 시점에서 남은 일의 작업량을 제곱하여 더한 값입니다. 
+  Demi는 N시간 동안 야근 피로도를 최소화하도록 일할 것입니다. 
+  Demi가 1시간 동안 작업량 1만큼을 처리할 수 있다고 할 때, 
+  퇴근까지 남은 N 시간과 각 일에 대한 작업량 works에 대해 야근 피로도를 최소화한 값을 return 하는 함수 solution을 완성해주세요.
+
+  제한 사항:
+  - works는 길이 1 이상, 20,000 이하인 배열입니다.
+  - works의 원소는 50,000 이하인 자연수입니다.
+  - n은 1,000,000 이하인 자연수입니다.
+*/
+
+function solution(n: number, works: number[]): number {
+  let answer = 0;
+  // 문제 풀이
+  return answer;
+}
+
+// 예제 테스트
+console.log(`예제 1: ${solution(4, [4, 3, 3])} `); // 12
+console.log(`예제 2: ${solution(1, [2, 1, 2])} `); // 6
+console.log(`예제 3: ${solution(3, [1, 1])} `); // 0
