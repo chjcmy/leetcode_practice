@@ -22,9 +22,35 @@
 */
 
 function solution(n: number, computers: number[][]): number {
-  let answer = 0;
+  let networkCount = 0;
   // 문제 풀이
-  return answer;
+  const visited: boolean[] = new Array(n).fill(false);
+
+  for(let i = 0; i < n; i++) {
+    if(!visited[i]) {
+      networkCount++;
+    
+      const queue: number[] = [];
+
+      queue.push(i);
+
+      visited[i]= true;
+
+      let head = 0;
+
+      while(head < queue.length){
+        const currentComputer = queue[head++];
+
+        for(let j = 0; j < n; j++){
+          if(computers[currentComputer][j] === 1 && !visited[j]) {
+            visited[j] = true;
+            queue.push(j);
+          }
+        }
+      }
+    }
+  }
+  return networkCount;
 }
 
 // 예제 테스트
