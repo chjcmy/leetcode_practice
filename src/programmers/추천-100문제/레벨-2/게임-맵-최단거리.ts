@@ -30,11 +30,39 @@
 function solution(maps: number[][]): number {
   let answer = 0;
   // 문제 풀이
+  const n = maps.length;
+  const m = maps[0].length;
 
+  const queue:[number, number, number][] = [];
+  const directions = [[-1, 0],[1, 0],[0, -1],[0, 1]];
 
+  queue.push([0,0,1]);
+  maps[0][0] = 0;
 
-  
-  return answer;
+  let head = 0;
+
+  while(head < queue.length){
+    const [y, x, dist] = queue[head++];
+
+    // 맵에 도착 했을시 빠져 나온다
+    if(y === n - 1 && x === n - 1) {
+      return dist
+    }
+
+    for (const [dy, dx] of directions) {
+      const ny = y + dy;
+      const nx = x + dx;
+      
+      // 단, 벽에 부딪히면 안되고 간곳 가면 안되고  맵 밖으로 가면 안된다
+      if( ny >= 0 && ny < n && nx >= 0 && nx < m &&  maps[ny][nx] === 1) {
+        // 방문처리
+        maps[ny][nx] = 0;
+        // 큐에 넣기
+        queue.push([ny, nx, dist + 1]);
+      }
+    }
+  }
+  return -1;
 }
 
 // 예제 테스트
