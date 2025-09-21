@@ -18,9 +18,15 @@
 */
 
 function solution(absolutes: number[], signs: boolean[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+
+  
+    let sum = 0;
+    
+    for (let i = 0; i < absolutes.length; i++) {
+        sum += signs[i] ? absolutes[i] : -absolutes[i];
+    }
+    
+    return sum;
 }
 
 // 예제 테스트
