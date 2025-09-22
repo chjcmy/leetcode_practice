@@ -5,9 +5,26 @@
  */
 
 function solution(s: string): string {
-  let answer = "";
+    let result = '';
+    let wordIndex = 0;
   // 문제 풀이
-  return answer;
+    for (let i = 0; i < s.length; i++) {
+        const char = s[i];
+        
+        if (char === ' ') {
+            result += char;
+            wordIndex = 0;  
+        } else {
+            if (wordIndex % 2 === 0) {
+                result += char.toUpperCase();  
+            } else {
+                result += char.toLowerCase();  
+            }
+            wordIndex++;
+        }
+    }
+    
+    return result;
 }
 
 // 예제 테스트
