@@ -5,9 +5,7 @@
  */
 
 function solution(n: number): number[] {
-  let answer: number[] = [];
-  // 문제 풀이
-  return answer;
+    return String(n).split('').reverse().map(Number);
 }
 
 // 예제 테스트
