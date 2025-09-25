@@ -14,9 +14,9 @@
 */
 
 function solution(n: number): number {
-  let answer = 0;
   // 문제 풀이
-  return answer;
+    return Number(String(n).split('').sort((a, b) => Number(b) - Number(a)).join(''));
+
 }
 
 // 예제 테스트
