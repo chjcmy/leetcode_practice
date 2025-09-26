@@ -15,9 +15,7 @@
 */
 
 function solution(arr: number[]): number[] {
-  let answer: number[] = [];
-  // 문제 풀이
-  return answer;
+    return arr.length === 1 ? [-1] : arr.filter(num => num !== Math.min(...arr));
 }
 
 // 예제 테스트
