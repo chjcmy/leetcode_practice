@@ -15,9 +15,13 @@
 */
 
 function solution(n: number): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    const sqrt = Math.sqrt(n);
+    
+    if (Number.isInteger(sqrt)) {
+        return (sqrt + 1) ** 2;
+    } else {
+        return -1;
+    }
 }
 
 // 예제 테스트
