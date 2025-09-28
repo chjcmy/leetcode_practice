@@ -13,11 +13,16 @@
   - n과 m은 각각 1000 이하인 자연수입니다.
 */
 
-function solution(n: number, m: number): void {
-  // 문제 풀이
-  // 이 문제는 콘솔에 직접 출력해야 합니다.
-  // 예시: console.log("*".repeat(n));
-}
+process.stdin.setEncoding('utf8');
+process.stdin.on('data', data => {
+    const n = data.toString().split(" ");
+    const a = Number(n[0]), b = Number(n[1]);
 
-// 예제 테스트 (이 문제는 콘솔 출력을 확인해야 합니다.)
-// solution(5, 3); // 예시 출력: *****\n*****\n*****
+    for (let i = 0; i < b; i++) {
+        let row = '';
+        for (let j = 0; j < a; j++) {
+            row += '*';
+        }
+        console.log(row);
+    }
+});
