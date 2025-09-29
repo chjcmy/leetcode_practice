@@ -14,9 +14,7 @@
 */
 
 function solution(num: number): string {
-  let answer = "";
-  // 문제 풀이
-  return answer;
+    return num % 2 === 0 ? "Even" : "Odd";
 }
 
 // 예제 테스트
