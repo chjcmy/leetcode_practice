@@ -27,9 +27,26 @@
 */
 
 function solution(n: number, lost: number[], reserve: number[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    const actualLost = lost.filter(l => !reserve.includes(l));
+    const actualReserve = reserve.filter(r => !lost.includes(r));
+
+    let count = n - actualLost.length;
+
+    actualLost.sort((a, b) => a - b);
+    actualReserve.sort((a, b) => a - b);
+    
+      for (const lostStudent of actualLost) {
+        const canBorrow = actualReserve.findIndex(r => 
+            Math.abs(r - lostStudent) === 1
+        );
+        
+        if (canBorrow !== -1) {
+            count++;
+            actualReserve.splice(canBorrow, 1); 
+        }
+    }
+    
+    return count;
 }
 
 // 예제 테스트
