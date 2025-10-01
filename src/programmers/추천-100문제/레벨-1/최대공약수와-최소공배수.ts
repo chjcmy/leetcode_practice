@@ -16,9 +16,14 @@
 */
 
 function solution(n: number, m: number): number[] {
-  let answer: number[] = [];
-  // 문제 풀이
-  return answer;
+    function gcd(a: number, b: number): number {
+        return b === 0 ? a : gcd(b, a % b);
+    }
+    
+    const gcdValue = gcd(n, m);
+    const lcmValue = (n * m) / gcdValue;  
+    
+    return [gcdValue, lcmValue];
 }
 
 // 예제 테스트
