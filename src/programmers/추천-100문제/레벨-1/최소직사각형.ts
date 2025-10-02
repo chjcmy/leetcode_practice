@@ -17,9 +17,22 @@
 */
 
 function solution(sizes: number[][]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+
+
+
+    let maxWidth = 0;
+    let maxHeight = 0;
+    
+    for (const [w, h] of sizes) {
+
+        const width = Math.max(w, h);   
+        const height = Math.min(w, h); 
+        
+        maxWidth = Math.max(maxWidth, width);
+        maxHeight = Math.max(maxHeight, height);
+    }
+    
+    return maxWidth * maxHeight;
 }
 
 // 예제 테스트
