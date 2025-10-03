@@ -25,9 +25,23 @@
 */
 
 function solution(num: number): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    if (num === 1) return 0;
+    
+    let count = 0;
+    
+    while (num !== 1) {
+        if (count >= 500) return -1;
+        
+        if (num % 2 === 0) {
+            num = num / 2;
+        } else {
+            num = num * 3 + 1;
+        }
+        
+        count++;
+    }
+    
+    return count;
 }
 
 // 예제 테스트
