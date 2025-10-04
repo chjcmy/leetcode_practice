@@ -19,9 +19,34 @@
 */
 
 function solution(board: number[][], moves: number[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+
+  
+    const stack: number[] = [];
+
+
+    let popped = 0;
+    
+    for (const move of moves) {
+        const col = move - 1;
+        
+        for (let row = 0; row < board.length; row++) {
+            if (board[row][col] !== 0) {
+                const doll = board[row][col];
+                board[row][col] = 0;
+                
+                if (stack.length > 0 && stack[stack.length - 1] === doll) {
+                    stack.pop();
+                    popped += 2;
+                } else {
+                    stack.push(doll);
+                }
+                
+                break;
+            }
+        }
+    }
+    
+    return popped;
 }
 
 // 예제 테스트
