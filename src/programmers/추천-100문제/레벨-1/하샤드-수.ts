@@ -16,9 +16,12 @@
 */
 
 function solution(x: number): boolean {
-  let answer = true;
-  // 문제 풀이
-  return answer;
+    const digitSum = String(x)
+        .split('')
+        .map((digit: string) => Number(digit))
+        .reduce((sum: number, digit: number) => sum + digit, 0);
+    
+    return x % digitSum === 0;
 }
 
 // 예제 테스트
