@@ -14,9 +14,8 @@
 */
 
 function solution(phone_number: string): string {
-  let answer = "";
-  // 문제 풀이
-  return answer;
+    const hiddenLength = phone_number.length - 4;
+    return "*".repeat(hiddenLength) + phone_number.slice(-4);
 }
 
 // 예제 테스트
