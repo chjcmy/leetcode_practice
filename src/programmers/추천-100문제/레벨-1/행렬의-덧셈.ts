@@ -14,9 +14,17 @@
 */
 
 function solution(arr1: number[][], arr2: number[][]): number[][] {
-  let answer: number[][] = [];
-  // 문제 풀이
-  return answer;
+    const result: number[][] = [];
+    
+    for (let i = 0; i < arr1.length; i++) {
+        const row: number[] = [];
+        for (let j = 0; j < arr1[i].length; j++) {
+            row.push(arr1[i][j] + arr2[i][j]);
+        }
+        result.push(row);
+    }
+    
+    return result;
 }
 
 // 예제 테스트
