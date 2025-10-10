@@ -21,10 +21,25 @@
   - 논문별 인용 횟수는 0회 이상 10,000회 이하입니다.
 */
 
+/*
+  English Description:
+  The H-Index is a metric for a scientist's productivity and impact. Given an array of citation counts for a scientist's papers, the task is to calculate their H-Index. The H-Index is defined as the maximum value 'h' such that 'h' papers have at least 'h' citations each, and the remaining papers have no more than 'h' citations. The number of papers is between 1 and 1,000, and citations per paper are between 0 and 10,000.
+*/
+
 function solution(citations: number[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    citations.sort((a, b) => b - a);
+    
+    let hIndex = 0;
+    
+    for (let i = 0; i < citations.length; i++) {
+        if (citations[i] >= i + 1) {
+            hIndex = i + 1;
+        } else {
+            break;
+        }
+    }
+    
+    return hIndex;
 }
 
 // 예제 테스트
