@@ -19,10 +19,19 @@
   - 공백 문자가 연속해서 나올 수 있습니다.
 */
 
+/*
+  English Description:
+  The problem requires converting a given string `s` into JadenCase. This means capitalizing the first letter of each word and making all other letters lowercase. If a word starts with a non-alphabetic character, subsequent letters in that word should be lowercase. The input string `s` contains alphabets, numbers, and spaces, with numbers only appearing as the first character of a word.
+*/
+
 function solution(s: string): string {
-  let answer = "";
-  // 문제 풀이
-  return answer;
+    return s
+        .split(' ')
+        .map((word: string) => {
+            if (word.length === 0) return word;
+            return word[0].toUpperCase() + word.slice(1).toLowerCase();
+        })
+        .join(' ');
 }
 
 // 예제 테스트
