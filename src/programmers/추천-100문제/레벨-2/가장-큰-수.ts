@@ -19,10 +19,17 @@
   - 정답이 너무 클 수 있으니 문자열로 바꾸어 return 합니다.
 */
 
+/*
+  English Description:
+  Given an array of non-negative integers, the task is to rearrange them to form the largest possible number. For instance, if the input is `[6, 10, 2]`, the output should be "6210". The result must be returned as a string due to its potential size.
+*/
+
 function solution(numbers: number[]): string {
-  let answer = "";
-  // 문제 풀이
-  return answer;
+    const result = numbers
+        .map(String)
+        .sort((a, b) => (b + a).localeCompare(a + b))
+        .join('');
+    return result[0] === '0' ? '0' : result;
 }
 
 // 예제 테스트
