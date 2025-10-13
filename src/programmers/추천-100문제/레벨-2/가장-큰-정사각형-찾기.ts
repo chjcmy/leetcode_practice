@@ -16,10 +16,31 @@
   - board의 값은 1 또는 0으로만 이루어져 있습니다.
 */
 
+/*
+  English Description:
+  The problem asks you to find the largest square composed entirely of '1's within a given 2D board filled with '0's and '1's. You need to return the area of this largest square. The board dimensions can be up to 1000x1000.
+*/
+
 function solution(board: number[][]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    const rows = board.length;
+    const cols = board[0].length;
+    const dp: number[][] = Array(rows).fill(0).map(() => Array(cols).fill(0));
+    let maxSize = 0;
+    
+    for (let i = 0; i < rows; i++) {
+        for (let j = 0; j < cols; j++) {
+            if (board[i][j] === 1) {
+                if (i === 0 || j === 0) {
+                    dp[i][j] = 1;
+                } else {
+                    dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1;
+                }
+                maxSize = Math.max(maxSize, dp[i][j]);
+            }
+        }
+    }
+    
+    return maxSize * maxSize;
 }
 
 // 예제 테스트
