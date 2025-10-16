@@ -20,10 +20,19 @@
   - 구명보트의 무게 제한은 항상 사람들의 몸무게 중 최댓값보다 크게 주어지므로, 사람들을 구출할 수 없는 경우는 없습니다.
 */
 
+/*
+  English Description:
+  The problem requires rescuing people from an island using lifeboats. Each lifeboat can hold a maximum of two people and has a weight limit. Given an array of people's weights and the lifeboat's weight limit, the task is to determine the minimum number of lifeboats needed to save everyone. The lifeboat's weight limit is always sufficient to rescue all individuals.
+*/
+
 function solution(people: number[], limit: number): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    people.sort((a, b) => a - b);
+    let left = 0, right = people.length - 1, boats = 0;
+    while (left <= right) {
+        if (people[left] + people[right] <= limit) left++;
+        right--, boats++;
+    }
+    return boats;
 }
 
 // 예제 테스트
