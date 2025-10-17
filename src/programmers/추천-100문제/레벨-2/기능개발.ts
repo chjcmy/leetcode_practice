@@ -21,10 +21,29 @@
   - 작업 속도는 100 이하의 자연수입니다.
 */
 
+/*
+  English Description:
+  The problem asks to determine how many features are deployed in each release. Each feature requires 100% progress to be deployed. Features are deployed together if a later feature finishes before an earlier one, but only when the earlier feature is ready. You are given the current progress and daily development speed for each feature.
+*/
+
 function solution(progresses: number[], speeds: number[]): number[] {
-  let answer: number[] = [];
-  // 문제 풀이
-  return answer;
+  const days = progresses.map((p, i) => Math.ceil((100 - p) / speeds[i]));
+    const result: number[] = [];
+    let releaseDay = days[0];
+    let count = 1;
+    
+    for (let i = 1; i < days.length; i++) {
+        if (days[i] <= releaseDay) {
+            count++;
+        } else {
+            result.push(count);
+            releaseDay = days[i];
+            count = 1;
+        }
+    }
+    
+    result.push(count);
+    return result;
 }
 
 // 예제 테스트
