@@ -26,10 +26,38 @@
   - str1, str2는 각각 1 이상 50 이하의 문자열입니다.
 */
 
+/*
+  English Description:
+  The problem requires calculating the Jaccard similarity between two input strings. This involves creating multisets of two-character pairs from each string, considering only alphabetic pairs and ignoring case. The Jaccard similarity is then computed as the size of the intersection divided by the size of the union of these multisets. Finally, the resulting float value is multiplied by 65536 and truncated to an integer.
+*/
+
 function solution(str1: string, str2: string): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    const getMultiSet = (str: string): Map<string, number> => {
+        const map = new Map<string, number>();
+        for (let i = 0; i < str.length - 1; i++) {
+            const pair = str.slice(i, i + 2).toLowerCase();
+            if (/^[a-z]{2}$/.test(pair)) {  // 영문자 2개만!
+                map.set(pair, (map.get(pair) || 0) + 1);
+            }
+        }
+        return map;
+    };
+
+
+    const map1 = getMultiSet(str1);
+    const map2 = getMultiSet(str2);
+    
+    let intersection = 0, union = 0;
+    const allKeys = new Set([...map1.keys(), ...map2.keys()]);
+    
+    for (const key of allKeys) {
+        const count1 = map1.get(key) || 0;
+        const count2 = map2.get(key) || 0;
+        intersection += Math.min(count1, count2); 
+        union += Math.max(count1, count2);  
+    }
+    
+    return union === 0 ? 65536 : Math.floor(intersection / union * 65536);
 }
 
 // 예제 테스트
