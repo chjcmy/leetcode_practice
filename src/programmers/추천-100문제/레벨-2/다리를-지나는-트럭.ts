@@ -27,13 +27,49 @@
   - 모든 트럭의 무게는 1 이상 weight 이하입니다.
 */
 
-function solution(bridge_length: number, weight: number, truck_weights: number[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+/*
+  English Description:
+  This problem asks to calculate the minimum time for a series of trucks to cross a single-lane bridge. The bridge has a maximum capacity for a certain number of trucks (`bridge_length`) and a maximum weight it can bear (`weight`). Trucks must cross in a given order, and their individual weights are provided. The goal is to determine the shortest time, in seconds, for all trucks to successfully cross the bridge.
+*/
+
+function solution(
+  bridge_length: number,
+  weight: number,
+  truck_weights: number[],
+): number {
+  let time = 0;
+  let bridge: number[] = new Array(bridge_length).fill(0);
+  let bridge_weight = 0;
+  let truck_index = 0;
+
+  while (truck_index < truck_weights.length || bridge_weight > 0) {
+    time++;
+
+    const exiting_truck = bridge.shift()!;
+    bridge_weight -= exiting_truck;
+
+    if (truck_index < truck_weights.length) {
+      const next_truck = truck_weights[truck_index];
+      if (bridge_weight + next_truck <= weight) {
+
+        bridge.push(next_truck);
+        bridge_weight += next_truck;
+        truck_index++;
+      } else {
+
+        bridge.push(0);
+      }
+    } else {
+      bridge.push(0);
+    }
+  }
+
+  return time;
 }
 
 // 예제 테스트
-console.log(`예제 1: ${solution(2, 10, [7,4,5,6])} `); // 8
+console.log(`예제 1: ${solution(2, 10, [7, 4, 5, 6])} `); // 8
 console.log(`예제 2: ${solution(100, 100, [10])} `); // 101
-console.log(`예제 3: ${solution(100, 100, [10,10,10,10,10,10,10,10,10,10])} `); // 110
+console.log(
+  `예제 3: ${solution(100, 100, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10])} `,
+); // 110
