@@ -18,11 +18,53 @@
   - n은 1,000,000 이하의 자연수입니다.
 */
 
+/*
+  English Description:
+  The problem asks to find the "next big number" for a given natural number `n`. This next big number must be greater than `n`, have the same number of '1's when both are converted to binary, and be the smallest number satisfying these two conditions. For example, the next big number for 78 (binary 1001110) is 83 (binary 1010011). The input `n` is a natural number less than or equal to 1,000,000.
+*/
+
 function solution(n: number): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    let binary = n.toString(2);
+    let arr = binary.split('');
+    
+    // Step 1: 오른쪽부터 첫 번째 '01' 패턴 찾기
+    let pos = -1;
+    for (let i = arr.length - 2; i >= 0; i--) {
+        if (arr[i] === '0' && arr[i + 1] === '1') {
+            pos = i;
+            break;
+        }
+    }
+    
+    if (pos === -1) {
+        // '01' 패턴이 없는 경우 (모든 비트가 1인 경우)
+        // 예: 1111 -> 10111 (NOT 100111)
+        let onesCount = binary.split('1').length - 1;
+        let result = '10' + '1'.repeat(onesCount - 1);
+        return parseInt(result, 2);
+    }
+    
+    // Step 2: '01'을 '10'으로 바꿈
+    arr[pos] = '1';
+    arr[pos + 1] = '0';
+    
+    // Step 3: pos+2 이후의 모든 비트를 정렬 (0들을 앞으로, 1들을 뒤로)
+    let rightPart = arr.slice(pos + 2);
+    let onesInRight = rightPart.filter(bit => bit === '1').length;
+    let zerosInRight = rightPart.length - onesInRight;
+    
+    // 0들을 앞에, 1들을 뒤에 배치
+    for (let i = pos + 2; i < arr.length; i++) {
+        if (i < pos + 2 + zerosInRight) {
+            arr[i] = '0';
+        } else {
+            arr[i] = '1';
+        }
+    }
+    
+    return parseInt(arr.join(''), 2);
 }
+
 
 // 예제 테스트
 console.log(`예제 1: ${solution(78)} `); // 83
