@@ -19,11 +19,35 @@
   - 점수는 100 이하의 자연수입니다.
 */
 
+/*
+  English Description:
+  The problem describes a "land-eating" game played on an N-row, 4-column grid, where each cell has a score. Players must move down one row at a time, stepping on only one cell per row. A special rule prevents stepping on the same column in consecutive rows. The goal is to find the maximum total score obtainable by the time the last row is reached.
+*/
+
 function solution(land: number[][]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    const n = land.length;
+
+    let prev = [...land[0]];
+    
+    for (let i = 1; i < n; i++) {
+        const curr = [0, 0, 0, 0];
+        
+        for (let j = 0; j < 4; j++) {
+            let maxPrev = 0;
+            for (let k = 0; k < 4; k++) {
+                if (k !== j) {
+                    maxPrev = Math.max(maxPrev, prev[k]);
+                }
+            }
+            curr[j] = land[i][j] + maxPrev;
+        }
+        
+        prev = curr;
+    }
+    
+    return Math.max(...prev);
 }
+
 
 // 예제 테스트
 console.log(`예제 1: ${solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]])} `); // 16
