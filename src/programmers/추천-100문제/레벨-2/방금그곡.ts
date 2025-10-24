@@ -33,9 +33,45 @@
 */
 
 function solution(m: string, musicinfos: string[]): string {
-  let answer = "";
-  // 문제 풀이
-  return answer;
+    function convertMelody(melody: string): string {
+        return melody
+            .replace(/C#/g, 'c')
+            .replace(/D#/g, 'd')
+            .replace(/F#/g, 'f')
+            .replace(/G#/g, 'g')
+            .replace(/A#/g, 'a');
+    }
+    
+    function timeToMinutes(time: string): number {
+        const [hour, minute] = time.split(':').map(Number);
+        return hour * 60 + minute;
+    }
+
+
+    const targetMelody = convertMelody(m);
+    let bestSong = null;
+    let maxPlayTime = -1;
+    
+    for (let i = 0; i < musicinfos.length; i++) {
+        const [startTime, endTime, title, sheet] = musicinfos[i].split(',');
+        
+        const playTime = timeToMinutes(endTime) - timeToMinutes(startTime);
+        const convertedSheet = convertMelody(sheet);
+
+        let playedMelody = '';
+        for (let j = 0; j < playTime; j++) {
+            playedMelody += convertedSheet[j % convertedSheet.length];
+        }
+
+        if (playedMelody.includes(targetMelody)) {
+            if (playTime > maxPlayTime) {
+                maxPlayTime = playTime;
+                bestSong = title;
+            }
+        }
+    }
+    
+    return bestSong || "(None)";
 }
 
 // 예제 테스트
