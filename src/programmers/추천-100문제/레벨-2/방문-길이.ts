@@ -24,9 +24,44 @@
 */
 
 function solution(dirs: string): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+    let x = 0, y = 0;  
+    const visited = new Set<string>();  
+
+    const directions: { [key: string]: [number, number] } = {
+        'U': [0, 1],  
+        'D': [0, -1],  
+        'R': [1, 0], 
+        'L': [-1, 0]   
+    };
+    
+    for (const dir of dirs) {
+        const [dx, dy] = directions[dir];
+        const newX = x + dx;
+        const newY = y + dy;
+        
+
+        if (newX < -5 || newX > 5 || newY < -5 || newY > 5) {
+            continue;
+        }
+        
+
+        const path = createPath(x, y, newX, newY);
+        visited.add(path);
+
+        x = newX;
+        y = newY;
+    }
+    
+    return visited.size;
+}
+
+function createPath(x1: number, y1: number, x2: number, y2: number): string {
+
+    if (x1 < x2 || (x1 === x2 && y1 < y2)) {
+        return `${x1},${y1}->${x2},${y2}`;
+    } else {
+        return `${x2},${y2}->${x1},${y1}`;
+    }
 }
 
 // 예제 테스트
