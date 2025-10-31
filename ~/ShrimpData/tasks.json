@@ -1,0 +1,1156 @@
+{
+  "tasks": [
+    {
+      "id": "6296fdcf-f8d4-4f17-9911-d854e79e7d06",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 1",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "completed",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:52:42.073Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/추천-100문제/레벨-2/셔틀버스.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1697_숨바꼭질.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases.",
+      "summary": "Solved a TypeScript and a Python algorithm problem: '셔틀버스' and '숨바꼭질'.",
+      "completedAt": "2025-10-31T00:52:42.072Z"
+    },
+    {
+      "id": "5334481d-605f-494f-acb8-88a509887c4a",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 2",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:18:22.284Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/10장-동적-프로그래밍/39-정수-삼각형.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1072_게임.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "2a3bbf30-5b44-4c1b-8062-a44f4730b08c",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 3",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:18:22.321Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/11장-자주-등장하는-자료-구조/42-올바른-괄호.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/10026_적록색약.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "b45ee26f-9d57-4b30-8c1e-7ead1151b0ff",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 4",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:18:22.446Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/11장-자주-등장하는-자료-구조/44-주식-가격.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1074_Z.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "d4c6c01a-87fa-44b6-8d27-c1fbf7ef2fee",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 5",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:18:22.501Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/11장-자주-등장하는-자료-구조/49-길-찾기-게임.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/11052_카드_구매하기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "e700558e-5907-456e-858d-a2f855926c6b",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 6",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:29.798Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/11장-자주-등장하는-자료-구조/50-이중-우선순위-큐.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/11286_절대값_힙.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "dc50460f-c92e-44e5-aeba-587ae50fb1ae",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 7",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:29.921Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/11장-자주-등장하는-자료-구조/52-보석-쇼핑.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/11403_경로_찾기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "e6e81ab3-2a75-4e6f-9247-9a6df917ff37",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 8",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.039Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/12장-구현/58-타겟-넘버.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1149_RGB거리.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "7c1810b7-dba8-483e-aca1-6eab0f380e1e",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 9",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.154Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/12장-구현/59-네트워크.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1158_요세푸스_문제.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "88844efb-ae71-40f8-b3de-0a4b0d5cfe64",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 10",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.287Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/12장-구현/60-단어-변환.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/11659_구간_합_구하기_4.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "ae636c3f-ede2-49d5-af85-1f68ad65490e",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 11",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.434Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/12장-구현/64-단속카메라.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/11660_구간_합_구하기_5.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "a9d9694e-bda1-4e21-b920-3552d8daac02",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 12",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.557Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/65-신고-결과-받기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1189_컴백홈.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "f17d07c1-3950-413a-a596-ac4126350bb2",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 13",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.669Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/66-k진수에서-소수-개수-구하기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1325_효율적인_해킹.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "e1cf165e-cd18-4c95-bc3b-15166e0a533c",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 14",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:30.769Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/67-주차-요금-계산.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1389_케빈_베이컨의_6단계_법칙.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "9acc019e-fa64-4114-8898-89c4ddd69e50",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 15",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.023Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/68-양궁대회.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/14502_연구소.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "e28c0ffc-3e06-4dad-bacf-416a0791c21c",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 16",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.147Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/69-양과-늑대.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/14888_연산자_끼워넣기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "99a1df1c-8439-461b-81be-7d3793189808",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 17",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.272Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/70-파괴되지-않은-건물.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/14940_쉬운_최단거리.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "862068db-3f0e-48e2-99e6-d4d865c24aa1",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 18",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.403Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/13장-도전-카카오-2022-블라인드-테스트/71-사라지는-발판.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1522_문자열_교환.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "df9308be-e9e6-4766-babd-0d6ff3a46ef9",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 19",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.527Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/72-외톨이-알파벳.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/15654_N과_M_(5).py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "f4ceb557-1a7a-4859-86a2-7cc77b1aaa3c",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 20",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.643Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/73-체육대회.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/15655_N과_M_(6).py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "dd715bf1-5f4b-4596-bc62-2ea609bf8b5d",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 21",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:31.822Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/74-유전법칙.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/15656_N과_M_(7).py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "74aae10e-2e5c-4f5e-a6aa-06cbfaf3c3f9",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 22",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.062Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/75-운영체제.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/15657_N과_M_(8).py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "12a1615d-29be-4cbc-bb8c-d741932632d2",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 23",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.201Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/76-실습용-로봇.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1629_곱셈.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "7a27eb41-a847-4b93-afa5-f9a5f7033be0",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 24",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.334Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/77-신입사원-교육.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/16926_배열_돌리기_1.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "22f9f119-a1f5-4502-a838-381d58159238",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 25",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.477Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/78-카페-확장.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1743_음식물_피하기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "70cd027c-9505-4fcd-a0c8-594d66ae5c0b",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 26",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.613Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/14장-코딩-전문-역량-인증-시험-PCCP-모의고사/79-보물-지도.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1747_소수&팰린드롬.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "3a485739-7f48-4356-a276-e26cef5dcfcd",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 27",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.750Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/4장-문자열/10-이진-변환-반복하기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1759_암호_만들기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "d19bd492-49cb-43f0-8570-255b8d3d1ae2",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 28",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:32.867Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/4장-문자열/11-문자열-내-p와-y의-개수.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1890_점프.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "f7a345f6-a02e-4380-ba9a-f07849948b09",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 29",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.130Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/4장-문자열/13-문자열-다루기-기본.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1926_그림.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "f78c7900-2e91-4287-b9ce-fde5ae9e2953",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 30",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.269Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/5장-재귀/15-쿼드압축-후-개수-세기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1931_회의실_배정.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "53006f97-584e-4e25-bbcd-48b29019c36a",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 31",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.400Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/5장-재귀/16-하노이의-탑.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1932_정수_삼각형.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "b7607a21-126d-46b6-8242-69aa3b157bb3",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 32",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.548Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/5장-재귀/17-모음-사전.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1946_신입_사원.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "018f2490-9178-46b4-9251-860930187ccb",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 33",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.682Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/6장-완전-탐색/18-모의고사.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1991_트리_순회.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "608db1ef-5b1e-40c6-8db0-fae479639bbd",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 34",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.802Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/6장-완전-탐색/19-카펫.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/1992_쿼드트리.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "c17ef4b2-56a2-450a-8544-4c3b0efbed77",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 35",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:33.935Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/6장-완전-탐색/21-소수-찾기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/20922_겹치는건_싫어.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "52c40468-2d35-4822-b5e5-1e434be308fb",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 36",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:34.155Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/7장-정렬/23-K번째-수.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2110_공유기_설치.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "b20ccbfe-fe8d-4d7e-80ad-f24666c2da4d",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 37",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:34.377Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/7장-정렬/25-H-index.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2156_포도주_시식.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "8e4817b1-75a8-4407-a463-64f83b8303a2",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 38",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:34.521Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/7장-정렬/26-문자열-내림차순으로-배치하기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2178_미로_탐색.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "c60374ef-2e0a-43a2-a32f-04f08cb591e4",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 39",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:34.672Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/7장-정렬/27-문자열-내-마음대로-정렬하기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2217_로프.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "639d164f-39ea-41ef-9b3f-efbe427fd318",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 40",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:34.821Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/7장-정렬/29-메뉴-리뉴얼.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2225_합분해.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "703a4374-2f53-4d35-bcab-81d0cae47ca0",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 41",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:35.452Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/8장-이진-탐색/30-순위-검색.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2468_안전_영역.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "55301b1e-c7da-4301-bbbf-1508577930fa",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 42",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:36.360Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/8장-이진-탐색/31-입국심사.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2504_괄호의_값.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "689f1a86-086f-49dc-83db-3befd730f569",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 43",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:36.934Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/8장-이진-탐색/32-징검다리.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2529_부등호.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "8190fe79-948e-4b8d-acba-247cf39def70",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 44",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:37.473Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/9장-해시/34-중복된-문자-제거.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2531_회전_초밥.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "79363132-ba02-412a-8e1a-4ad185490837",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 45",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:37.977Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/9장-해시/35-A로-B-만들기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2583_영역_구하기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "f335f000-992b-4387-800f-3b7687ab789e",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 46",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:38.612Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/9장-해시/37-완주하지-못한-선수.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/2667_단지번호붙이기.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "2826268d-419c-4bc5-9ac8-1b422c25ba84",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 47",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:39.073Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/추천-100문제/레벨-1/3진법-뒤집기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/5014_스타트링크.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "d96d579a-f43a-4973-aed1-5ef078319c0d",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 48",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:39.319Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/추천-100문제/레벨-1/K번째수.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/7562_나이트의_이동.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "49a00706-259d-4826-9481-ad5bc67992f9",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 49",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:39.938Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/추천-100문제/레벨-1/x만큼-간격이-있는-n개의-숫자.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/7576_토마토.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    },
+    {
+      "id": "ec5fca23-5efa-472d-b71f-210ad3f76813",
+      "name": "Daily Algorithm Challenge (TS & PY) - Day 50",
+      "description": "Solve one TypeScript and one Python algorithm problem.",
+      "status": "pending",
+      "dependencies": [],
+      "createdAt": "2025-10-30T22:40:09.081Z",
+      "updatedAt": "2025-10-31T00:19:40.170Z",
+      "relatedFiles": [
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/programmers/추천-100문제/레벨-1/가운데-글자-가져오기.ts",
+          "type": "TO_MODIFY",
+          "description": "TypeScript problem"
+        },
+        {
+          "path": "/Users/choeseonghyeon/WebstormProjects/leetcode_practice/src/python/silver1/9012_괄호.py",
+          "type": "TO_MODIFY",
+          "description": "Python problem"
+        }
+      ],
+      "implementationGuide": "Solve the following problems.",
+      "verificationCriteria": "The solutions for both problems should be correct and pass all test cases. The solution should be verified by running the code with provided test cases."
+    }
+  ]
+}

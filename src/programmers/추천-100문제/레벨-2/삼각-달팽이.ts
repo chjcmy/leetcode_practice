@@ -7,6 +7,7 @@
 function solution(n: number): number[] {
 
     const triangle: number[][] = [];
+    
     for (let i = 0; i < n; i++) {
         triangle.push(new Array(i + 1).fill(0));
     }
@@ -41,6 +42,7 @@ function solution(n: number): number[] {
     }
 
     const result: number[] = [];
+
     for (let i = 0; i < n; i++) {
         for (let j = 0; j <= i; j++) {
             result.push(triangle[i][j]);
