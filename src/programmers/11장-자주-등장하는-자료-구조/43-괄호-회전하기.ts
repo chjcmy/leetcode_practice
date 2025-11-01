@@ -54,4 +54,3 @@ function solution(s: string): number {
 // 테스트 실행
 console.log(solution("[](){}"));
 
-export {};

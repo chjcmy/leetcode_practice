@@ -85,4 +85,4 @@ testCases.forEach(({ input, expected }, index) => {
     console.log('---');
 });
 
-export { maxArea };
+

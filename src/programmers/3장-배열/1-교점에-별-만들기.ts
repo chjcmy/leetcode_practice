@@ -153,4 +153,3 @@ function runTests() {
 
 runTests();
 
-export {};

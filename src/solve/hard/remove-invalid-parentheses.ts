@@ -10,7 +10,7 @@
  * 
  * Example:
  * Input: s = "((("
- * Output: [""]
+ * Output: [""].
  * 
  * Example:
  * Input: s = "())"
@@ -42,6 +42,6 @@ function removeInvalidParentheses(s: string): string[] {
 }
 
 // Test cases
-console.log(removeInvalidParentheses("()())")); // Expected: ["()()","(())"]
-console.log(removeInvalidParentheses("((("); // Expected: [""]
-console.log(removeInvalidParentheses("())"); // Expected: ["()"]
+console.log(removeInvalidParentheses("()())"));
+console.log(removeInvalidParentheses("((("));
+console.log(removeInvalidParentheses("())"));

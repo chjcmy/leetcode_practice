@@ -30,31 +30,3 @@ function solution(word: string, pages: string[]): number {
 }
 
 // 예제 테스트
-console.log(`예제 1: ${solution("blind", ["<html lang=\"ko\" xml:lang=\"ko\">
-<head>
-  <meta charset=\"utf-8">
-  <meta property=\"og:url\" content=\"https://a.com"/>
-</head>
-<body>
-Blind Lorem Blind ipsum dolor Blind test sit amet, consectetur adipiscing elit. 
-<a href=\"https://b.com\">Link to b</a>
-</body>
-</html>", "<html lang=\"ko\" xml:lang=\"ko\">
-<head>
-  <meta charset=\"utf-8">
-  <meta property=\"og:url\" content=\"https://b.com"/>
-</head>
-<body>
-Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-<a href=\"https://c.com\">Link to c</a>
-</body>
-</html>", "<html lang=\"ko\" xml:lang=\"ko\">
-<head>
-  <meta charset=\"utf-8">
-  <meta property=\"og:url\" content=\"https://c.com"/>
-</head>
-<body>
-Ut condimentum urna ut dolor consectetur interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-<a href=\"https://a.com\">Link to a</a>
-</body>
-</html>"])} `); // 0

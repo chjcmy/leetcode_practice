@@ -65,5 +65,3 @@ testCases.forEach(test => {
     const result = coinChange(test.coins, test.amount);
     console.log(result);
 });
-
-export { coinChange };

@@ -37,7 +37,7 @@
  * - 공간 복잡도: O(N * M)
  *   - 큐에 최악의 경우 맵의 많은 부분이 담길 수 있습니다.
  */
-export function solution(maps: number[][]): number {
+function solution(maps: number[][]): number {
   const n = maps.length; // 행
   const m = maps[0].length; // 열
 
@@ -88,7 +88,7 @@ export function solution(maps: number[][]): number {
  * - 공간 복잡도: O(N * M)
  *   - 2개의 큐와 2개의 방문 배열을 사용하므로, 공간 복잡도는 O(2 * N * M)이며, 상수를 제외하면 O(N * M)입니다.
  */
-export function solution2(maps: number[][]): number {
+function solution2(maps: number[][]): number {
   const n = maps.length;
   const m = maps[0].length;
 

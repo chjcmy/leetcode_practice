@@ -37,4 +37,3 @@ testCases.forEach(test => {
     console.log('---');
 });
 
-export { threeSum };

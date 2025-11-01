@@ -41,4 +41,3 @@ testCases.forEach((test, index) => {
     console.log('---');
 });
 
-export { lengthOfLIS };

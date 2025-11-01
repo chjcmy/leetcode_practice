@@ -43,4 +43,3 @@ testCases.forEach((test, index) => {
     console.log('---');
 });
 
-export { canFinish };

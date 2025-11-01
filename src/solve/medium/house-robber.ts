@@ -62,4 +62,3 @@ testCases.forEach(test => {
     console.log(result);
 });
 
-export { rob };
