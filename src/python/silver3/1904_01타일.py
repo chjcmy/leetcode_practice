@@ -1,15 +1,30 @@
 import sys
 
 def solution():
-    # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+    try:
+        input_data = sys.stdin.readline()
+        if not input_data:
+            return
+        n = int(input_data)
+    except ValueError:
+        return
+
+    if n == 1:
+        print(1)
+        return
+    elif n == 2:
+        print(2)
+        return
+
+    prev2 = 1
+    prev1 = 2
+
+    for i in range(3, n + 1):
+        curr = (prev2 + prev1) % 15746
+        prev2 = prev1
+        prev1 = curr
+
+    print(prev1)
 
 if __name__ == "__main__":
-    # 입력을 처리하는 부분입니다.
-    # 문제에 따라 수정하여 사용하세요.
-    # 예: n = int(sys.stdin.readline())
-    
-    # solution() 함수를 호출하고 결과를 출력합니다.
-    # result = solution()
-    # print(result)
-    pass
+    solution()

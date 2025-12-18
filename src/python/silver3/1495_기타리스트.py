@@ -1,15 +1,41 @@
 import sys
 
 def solution():
-    # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+    try:
+        input_data = sys.stdin.read().split()
+        if not input_data:
+            return
+        
+        iterator = iter(input_data)
+        try:
+            n = int(next(iterator))
+            s = int(next(iterator))
+            m = int(next(iterator))
+            volumelists = []
+            for _ in range(n):
+                volumelists.append(int(next(iterator)))
+        except StopIteration:
+            return
+
+        currentvolumes = {s}
+
+        for v_diff in volumelists:
+            nextvolumes = set()
+            for v in currentvolumes:
+                if v + v_diff <= m:
+                    nextvolumes.add(v + v_diff)
+                if v - v_diff >= 0:
+                    nextvolumes.add(v - v_diff)
+
+            if not nextvolumes:
+                print(-1)
+                return
+            
+            currentvolumes = nextvolumes
+        
+        print(max(currentvolumes))
+    except Exception:
+        return
 
 if __name__ == "__main__":
-    # 입력을 처리하는 부분입니다.
-    # 문제에 따라 수정하여 사용하세요.
-    # 예: n = int(sys.stdin.readline())
-    
-    # solution() 함수를 호출하고 결과를 출력합니다.
-    # result = solution()
-    # print(result)
-    pass
+    solution()
