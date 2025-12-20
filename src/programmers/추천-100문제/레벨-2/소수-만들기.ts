@@ -14,9 +14,25 @@
 */
 
 function solution(nums: number[]): number {
-  let answer = 0;
-  // 문제 풀이
-  return answer;
+  const isPrime = (n:number) : boolean => {
+    if (n < 2) return false;
+    for (let i = 2; i < Math.sqrt(n); i++) {
+      if(n % i === 0) return false;
+    }
+    return true;
+  }
+
+  let count = 0;
+  const len = nums.length;
+
+  for (let i = 0; i < len; i++) {
+    for (let j = i + 1; j < len; j++) {
+      for (let k = j + 1; k < len; k++) {
+        if(isPrime(nums[i] + nums[j] + nums[k])) count++;
+      }
+    }
+  }
+  return count;
 }
 
 // 예제 테스트
