@@ -1,15 +1,24 @@
 import sys
 
-def solution():
-    # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+n = int(sys.stdin.readline())
+m = int(sys.stdin.readline())
 
-if __name__ == "__main__":
-    # 입력을 처리하는 부분입니다.
-    # 문제에 따라 수정하여 사용하세요.
-    # 예: n = int(sys.stdin.readline())
-    
-    # solution() 함수를 호출하고 결과를 출력합니다.
-    # result = solution()
-    # print(result)
-    pass
+graph = [[] for _ in range(n + 1)]
+
+for _ in range(m):
+    a, b = map(int, sys.stdin.readline().split())
+    graph[a].append(b)
+    graph[b].append(a)
+
+visited = [False] * (n + 1)
+
+def dfs(v):
+    visited[v] = True
+
+    for i in graph[v]:
+        if not visited[i]:
+            dfs(i)
+
+dfs(1)
+
+print(visited.count(True) - 1)
