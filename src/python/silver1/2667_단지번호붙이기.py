@@ -1,15 +1,51 @@
 import sys
 
+# Recursion limit for DFS
+sys.setrecursionlimit(10**6)
+
+def dfs(x, y, n, grid, visited):
+    visited[x][y] = True
+    count = 1
+    
+    dx = [-1, 1, 0, 0]
+    dy = [0, 0, -1, 1]
+    
+    for i in range(4):
+        nx = x + dx[i]
+        ny = y + dy[i]
+        
+        if 0 <= nx < n and 0 <= ny < n:
+            if grid[nx][ny] == '1' and not visited[nx][ny]:
+                count += dfs(nx, ny, n, grid, visited)
+                
+    return count
+
 def solution():
-    # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+    input = sys.stdin.readline
+    try: 
+        line = input().strip()
+        if not line: return
+        n = int(line)
+    except ValueError: return
+    
+    grid = []
+    for _ in range(n):
+        grid.append(list(input().strip()))
+        
+    visited = [[False] * n for _ in range(n)]
+    complex_sizes = []
+    
+    for i in range(n):
+        for j in range(n):
+            if grid[i][j] == '1' and not visited[i][j]:
+                size = dfs(i, j, n, grid, visited)
+                complex_sizes.append(size)
+                
+    complex_sizes.sort()
+    
+    print(len(complex_sizes))
+    for size in complex_sizes:
+        print(size)
 
 if __name__ == "__main__":
-    # 입력을 처리하는 부분입니다.
-    # 문제에 따라 수정하여 사용하세요.
-    # 예: n = int(sys.stdin.readline())
-    
-    # solution() 함수를 호출하고 결과를 출력합니다.
-    # result = solution()
-    # print(result)
-    pass
+    solution()

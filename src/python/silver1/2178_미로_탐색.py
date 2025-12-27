@@ -1,15 +1,39 @@
 import sys
+from collections import deque
 
 def solution():
-    # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+    input = sys.stdin.readline
+    try:
+        line = input().split()
+        if not line: return
+        N, M = map(int, line)
+    except ValueError: return
+
+    maze = []
+    for _ in range(N):
+        maze.append(list(map(int, list(input().strip()))))
+        
+    dx = [-1, 1, 0, 0]
+    dy = 0, 0, -1, 1
+    
+    queue = deque([(0, 0)])
+    
+    # BFS
+    while queue:
+        x, y = queue.popleft()
+        
+        if x == N - 1 and y == M - 1:
+            print(maze[x][y])
+            break
+            
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            
+            if 0 <= nx < N and 0 <= ny < M:
+                if maze[nx][ny] == 1:
+                    maze[nx][ny] = maze[x][y] + 1
+                    queue.append((nx, ny))
 
 if __name__ == "__main__":
-    # 입력을 처리하는 부분입니다.
-    # 문제에 따라 수정하여 사용하세요.
-    # 예: n = int(sys.stdin.readline())
-    
-    # solution() 함수를 호출하고 결과를 출력합니다.
-    # result = solution()
-    # print(result)
-    pass
+    solution()
