@@ -2,7 +2,7 @@ import sys
 
 def solution():
     # 여기에 문제 풀이 코드를 작성하세요.
-    pass
+    
 
 if __name__ == "__main__":
     # 입력을 처리하는 부분입니다.

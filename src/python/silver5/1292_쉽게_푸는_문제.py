@@ -7,21 +7,26 @@ Link: https://www.acmicpc.net/problem/1292
 LG Electronics Coding Test Prep
 """
 
-def solve():
-    """Main solution function"""
-    # TODO: Implement solution
-    pass
-
 
 def main():
     """Input processing and solution execution"""
-    # TODO: Implement input processing
-    # Example:
-    # n = int(input())
-    # data = list(map(int, input().split()))
-    
-    result = solve()
-    # print(result)
+    # 1. Input A, B
+    a, b = map(int, input().split())
+
+    # TODO: Implement sequence logic
+    # Sequence: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ...
+
+    arr = []
+
+    for i in range(1, 100):
+        for _ in range(i):
+            arr.append(i)
+
+    result = 0
+    for i in range(a - 1, b):
+        result += arr[i]
+
+    print(result)
 
 
 if __name__ == "__main__":

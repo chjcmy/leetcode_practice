@@ -17,23 +17,25 @@ def solution():
         def dfs():
             # 대소문자 수정 (M -> m)
             if len(s) == m:
-                print(' '.join(map(str, s)))
-                return
+def main():
+    """Input processing and solution execution"""
+    # 1. Input N, M
+    # n, m = map(int, input().split())
+    
+    # TODO: Implement Backtracking (Recursion)
+    # Goal: Print all sequences of length M from 1 to N
+    
+    # def backtrack(current_sequence):
+    #     if len(current_sequence) == m:
+    #         print(*current_sequence)
+    #         return
+    #     
+    #     for i in range(1, n+1):
+    #         if i not in current_sequence:
+    #             backtrack(current_sequence + [i])
+    
+    # backtrack([])
 
-            # 대소문자 수정 (N -> n)
-            for i in range(1, n + 1):
-                if not visited[i]:
-                    visited[i] = True
-                    s.append(i)
-                    dfs()
-                    s.pop()
-                    visited[i] = False
-        
-        # DFS 시작
-        dfs()
-
-    except Exception:
-        pass
 
 if __name__ == "__main__":
-    solution()
+    main()

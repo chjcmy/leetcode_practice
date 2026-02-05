@@ -944,11 +944,11 @@ LG전자 코딩테스트는 보통 3문제가 출제되며, 1번 문제는 쉽�
 > **핵심**: 실수하지 않기! 빠르고 정확하게 풀어서 2, 3번 문제에 집중할 시간 확보
 
 #### 기본 구현 문제 (원본)
-- [ ] **1157-단어_공부** - [단어 공부](https://www.acmicpc.net/problem/1157) (문자열, 해시)
-- [ ] **1236-성_지키기** - [성 지키기](https://www.acmicpc.net/problem/1236) (구현)
-- [ ] **1268-임시_반장_정하기** - [임시 반장 정하기](https://www.acmicpc.net/problem/1268) (구현)
-- [ ] **1292-쉽게_푸는_문제** - [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) (수학, 구현)
-- [ ] **1296-팀_이름_정하기** - [팀 이름 정하기](https://www.acmicpc.net/problem/1296) (문자열, 구현)
+- [x] **1157-단어_공부** - [단어 공부](https://www.acmicpc.net/problem/1157) (문자열, 해시)
+- [x] **1236-성_지키기** - [성 지키기](https://www.acmicpc.net/problem/1236) (구현)
+- [x] **1268-임시_반장_정하기** - [임시 반장 정하기](https://www.acmicpc.net/problem/1268) (구현)
+- [x] **1292-쉽게_푸는_문제** - [쉽게 푸는 문제](https://www.acmicpc.net/problem/1292) (수학, 구현)
+- [x] **1296-팀_이름_정하기** - [팀 이름 정하기](https://www.acmicpc.net/problem/1296) (문자열, 구현)
 - [ ] **1357-뒤집힌_덧셈** - [뒤집힌 덧셈](https://www.acmicpc.net/problem/1357) (수학, 문자열)
 - [ ] **1834-나머지와_몫이_같은_수** - [나머지와 몫이 같은 수](https://www.acmicpc.net/problem/1834) (수학)
 
